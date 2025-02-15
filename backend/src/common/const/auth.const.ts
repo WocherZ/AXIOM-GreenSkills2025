@@ -1,0 +1,3 @@
+export const TOKEN_EXPIRES_IN = 3600 * 8;
+export const REFRESH_TOKEN_EXPIRES_IN = 10800;
+export const REFRESH_TOKEN_EXPIRES_IN_STRING = '3h';

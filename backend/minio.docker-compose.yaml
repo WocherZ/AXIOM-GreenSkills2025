@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  minio:
+    image: minio/minio
+    container_name: minio
+    restart: 'unless-stopped'
+    ports:
+      - '9000:9000'
+      - '9001:9001'
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+      MINIO_BUCKET_NAME: ${MINIO_BUCKET_NAME}
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY}
+    command: server --console-address ":9001" /data
+    entrypoint: >
+      /bin/sh -c '
+        isAlive() { curl -sf http://127.0.0.1:9000/minio/health/live; }    # check if Minio is alive
+        minio $0 "$@" --quiet & echo $! > /tmp/minio.pid                   # start Minio in the background
+        while ! isAlive; do sleep 0.1; done                                # wait until Minio is alive
+        mc alias set minio http://127.0.0.1:9000 $$MINIO_ROOT_USER $$MINIO_ROOT_PASSWORD; # setup Minio client
+        mc mb minio/$$MINIO_BUCKET_NAME || true                                    # create a test bucket
+        mc anonymous set public minio/$$MINIO_BUCKET_NAME
+        mc anonymous set download minio/$$MINIO_BUCKET_NAME
+        mc admin accesskey create minio/ --access-key $$MINIO_ACCESS_KEY --secret-key $$MINIO_SECRET_KEY --name "backstage"
+        kill -s INT $(cat /tmp/minio.pid) && rm /tmp/minio.pid             # stop Minio
+        while isAlive; do sleep 0.1; done                                  # wait until Minio is stopped
+        exec minio $0 "$@"                                                 # start Minio in the foreground
+      '
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:9000/minio/health/live']
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+volumes:
+  minio_data:

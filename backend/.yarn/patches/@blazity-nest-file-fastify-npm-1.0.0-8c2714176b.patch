@@ -1,0 +1,24 @@
+diff --git a/build/src/storage/memory-storage.d.ts b/build/src/storage/memory-storage.d.ts
+index 7b84622ba8851f4e118ea6643ff93ae43279c3c5..41f81c61c75bd733fd2f682d03569530fa9a65af 100644
+--- a/build/src/storage/memory-storage.d.ts
++++ b/build/src/storage/memory-storage.d.ts
+@@ -11,6 +11,7 @@ export declare class MemoryStorage implements Storage<MemoryStorageFile> {
+     handleFile(file: MultipartFile, req: FastifyRequest<RouteGenericInterface, Server, IncomingMessage>): Promise<{
+         buffer: Buffer;
+         size: number;
++        originalFilename: string;
+         encoding: string;
+         mimetype: string;
+         fieldname: string;
+diff --git a/build/src/storage/memory-storage.js b/build/src/storage/memory-storage.js
+index 4eeff2a2842cd97dc5f104b1cc1330cb950710fe..17db84e0c1ecbb27a85d6381f5d02a01e9463c68 100644
+--- a/build/src/storage/memory-storage.js
++++ b/build/src/storage/memory-storage.js
+@@ -8,6 +8,7 @@ class MemoryStorage {
+         return {
+             buffer,
+             size: buffer.length,
++            originalFilename: file.filename,
+             encoding,
+             mimetype,
+             fieldname,
