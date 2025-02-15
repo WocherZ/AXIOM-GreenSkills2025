@@ -1,0 +1,1528 @@
+{
+  "data": {
+    "snapshot": {
+      "id": "c7w7pc1qyt1z93c",
+      "content": {
+        "default": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "document",
+              "attrs": {
+                "aiOptions": {
+                  "preserveLayouts": false,
+                  "imageOptions": {
+                    "license": "All",
+                    "provider": "aiGenerated",
+                    "generateStyle": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                    "model": "flux-1-schnell",
+                    "stylePreset": "Theme"
+                  }
+                },
+                "background": {
+                  "type": "none"
+                },
+                "docFlags": {
+                  "cardLayoutsEnabled": true
+                },
+                "format": "deck",
+                "customCode": {},
+                "settings": {
+                  "defaultFullBleed": "contained",
+                  "stylesDerivedFrom": "deck_default",
+                  "cardDimensions": "fluid",
+                  "verticalAlign": "center",
+                  "defaultContentWidth": "lg",
+                  "fontSize": "md",
+                  "scaleContentToFit": false,
+                  "animationsEnabled": true
+                },
+                "generateStatus": "done",
+                "generateInfo": {
+                  "interactionId": "ihnkjmp2rs91i4x",
+                  "streamId": "pqof7mgvs5fonqh",
+                  "lastEventId": "8",
+                  "lastCompletedCardId": "0dzutoom5b6kh7n",
+                  "lastCompletedCardIndex": 7
+                },
+                "docId": "pqof7mgvs5fonqh"
+              },
+              "content": [
+                {
+                  "type": "card",
+                  "attrs": {
+                    "background": {
+                      "type": "none"
+                    },
+                    "container": {},
+                    "cardSize": "default",
+                    "layout": "left",
+                    "id": "7stkd7cxp41hpnk"
+                  },
+                  "content": [
+                    {
+                      "type": "cardAccentLayoutItem",
+                      "attrs": {
+                        "itemId": "accent",
+                        "fitType": "fill",
+                        "background": {
+                          "type": "image",
+                          "image": {
+                            "id": "3zKUi",
+                            "horizontalAlign": null,
+                            "savedMediaId": "7377obpz9luvta6",
+                            "src": "https://cdn.gamma.app/jqbcrr6wgse06nt/generated-images/hlDIR1wT518QQ-cnwYMWO.jpg",
+                            "tempUrl": null,
+                            "uploadStatus": 3,
+                            "meta": {
+                              "width": 896,
+                              "height": 1152
+                            },
+                            "providerMeta": null,
+                            "aiParams": {
+                              "model": "flux-1-schnell",
+                              "steps": 30,
+                              "width": 896,
+                              "height": 1152,
+                              "prompt": "sunset with vibrant sky over a mountain range, sun rays, warm light, inspiring silhouette",
+                              "stylePreset": "Theme",
+                              "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                              "interactionId": "ihnkjmp2rs91i4x",
+                              "upscaleFactor": 1
+                            },
+                            "loadImageParams": {
+                              "provider": "aiGenerated",
+                              "query": "sunset with vibrant sky over a mountain range, sun rays, warm light, inspiring silhouette",
+                              "options": {
+                                "model": "flux-1-schnell",
+                                "stylePreset": "Theme",
+                                "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                                "aspectRatio": "portrait"
+                              }
+                            },
+                            "loadImageStatus": "done",
+                            "loadImageId": "zbwmM",
+                            "name": null,
+                            "query": "sunset with vibrant sky over a mountain range, sun rays, warm light, inspiring silhouette",
+                            "source": "image.ai-generated",
+                            "showPlaceholder": null,
+                            "fullWidthBlock": false,
+                            "resize": {
+                              "clipType": null,
+                              "clipPath": null,
+                              "clipAspectRatio": null,
+                              "width": null
+                            },
+                            "clickBehavior": null,
+                            "href": null,
+                            "provider": "baseten"
+                          },
+                          "source": "image.ai-generated",
+                          "mask": {
+                            "effect": "faded"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "cardLayoutItem",
+                      "attrs": {
+                        "itemId": "body"
+                      },
+                      "content": [
+                        {
+                          "type": "heading",
+                          "attrs": {
+                            "level": 1
+                          },
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Польза спорта в жизни"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Спорт - это не просто физическая активность, это образ жизни, который приносит пользу на всех уровнях: от физического здоровья до психического благополучия.",
+                              "marks": [
+                                {
+                                  "type": "bold",
+                                  "attrs": {}
+                                },
+                                {
+                                  "type": "italic",
+                                  "attrs": {}
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "contributors",
+                          "attrs": {
+                            "showTime": true,
+                            "hiddenContributorIds": []
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "card",
+                  "attrs": {
+                    "id": "3p929g8e2hhh7mw",
+                    "background": {
+                      "type": "none"
+                    },
+                    "container": {},
+                    "cardSize": "default",
+                    "layout": "blank"
+                  },
+                  "content": [
+                    {
+                      "type": "cardLayoutItem",
+                      "attrs": {
+                        "itemId": "body"
+                      },
+                      "content": [
+                        {
+                          "type": "heading",
+                          "attrs": {
+                            "level": 1
+                          },
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Физическое здоровье"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "gridLayout",
+                          "attrs": {
+                            "colWidths": [
+                              33.33,
+                              33.34,
+                              33.33
+                            ],
+                            "fullWidthBlock": false
+                          },
+                          "content": [
+                            {
+                              "type": "gridCell",
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Укрепление мышц"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт помогает укрепить мышцы и повысить силу и выносливость."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "gridCell",
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Снижение риска заболеваний"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Регулярные тренировки снижают риск развития сердечно-сосудистых заболеваний, диабета и других хронических заболеваний."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "gridCell",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "все не то!!!"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "card",
+                  "attrs": {
+                    "id": "7lkgc28jjgatfg0",
+                    "background": {
+                      "type": "none"
+                    },
+                    "container": {},
+                    "cardSize": "default",
+                    "layout": "right"
+                  },
+                  "content": [
+                    {
+                      "type": "cardAccentLayoutItem",
+                      "attrs": {
+                        "itemId": "accent",
+                        "fitType": "fill",
+                        "background": {
+                          "type": "image",
+                          "image": {
+                            "id": "wm2o_",
+                            "horizontalAlign": null,
+                            "savedMediaId": "s3jmusmnjm9gdwz",
+                            "src": "https://cdn.gamma.app/jqbcrr6wgse06nt/generated-images/nDEvKClAitbwosWlZUOX5.jpg",
+                            "tempUrl": null,
+                            "uploadStatus": 3,
+                            "meta": {
+                              "width": 896,
+                              "height": 1152
+                            },
+                            "providerMeta": null,
+                            "aiParams": {
+                              "model": "flux-1-schnell",
+                              "steps": 30,
+                              "width": 896,
+                              "height": 1152,
+                              "prompt": "person meditating in nature, peaceful surroundings, green trees, sun rays",
+                              "stylePreset": "Theme",
+                              "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                              "interactionId": "ihnkjmp2rs91i4x",
+                              "upscaleFactor": 1
+                            },
+                            "loadImageParams": {
+                              "provider": "aiGenerated",
+                              "query": "person meditating in nature, peaceful surroundings, green trees, sun rays",
+                              "options": {
+                                "model": "flux-1-schnell",
+                                "stylePreset": "Theme",
+                                "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                                "aspectRatio": "portrait"
+                              }
+                            },
+                            "loadImageStatus": "done",
+                            "loadImageId": "-FJGW",
+                            "name": null,
+                            "query": "person meditating in nature, peaceful surroundings, green trees, sun rays",
+                            "source": "image.ai-generated",
+                            "showPlaceholder": null,
+                            "fullWidthBlock": false,
+                            "resize": {
+                              "clipType": null,
+                              "clipPath": null,
+                              "clipAspectRatio": null,
+                              "width": null
+                            },
+                            "clickBehavior": null,
+                            "href": null,
+                            "provider": "baseten"
+                          },
+                          "source": "image.ai-generated",
+                          "mask": {
+                            "effect": "faded"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "cardLayoutItem",
+                      "attrs": {
+                        "itemId": "body"
+                      },
+                      "content": [
+                        {
+                          "type": "heading",
+                          "attrs": {
+                            "level": 1
+                          },
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Улучшение психического здоровья"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "smartLayout",
+                          "attrs": {
+                            "variantKey": "bullets",
+                            "options": {
+                              "cellSize": "xl",
+                              "numbered": false,
+                              "orientation": "vertical",
+                              "twoSided": false
+                            },
+                            "fullWidthBlock": false
+                          },
+                          "content": [
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "8jyfD",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Снятие стресса"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Физическая активность помогает снять стресс и напряжение, вызывая выброс эндорфинов, которые повышают настроение."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "ltvTT",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Повышение концентрации"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт улучшает концентрацию и внимание, способствует улучшению памяти и познавательных функций."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "Hsp89",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Повышение уровня энергии"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Регулярные тренировки повышают уровень энергии, делая вас более активным и бодрым."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "card",
+                  "attrs": {
+                    "id": "kk6v0lil9jvod3s",
+                    "background": {
+                      "type": "none"
+                    },
+                    "container": {},
+                    "cardSize": "default",
+                    "layout": "left"
+                  },
+                  "content": [
+                    {
+                      "type": "cardAccentLayoutItem",
+                      "attrs": {
+                        "itemId": "accent",
+                        "fitType": "fill",
+                        "background": {
+                          "type": "image",
+                          "image": {
+                            "id": "j5sZU",
+                            "horizontalAlign": null,
+                            "savedMediaId": "w1h9dsju7520k7k",
+                            "src": "https://cdn.gamma.app/jqbcrr6wgse06nt/generated-images/tG046gdGl7yUOIGMPUloh.jpg",
+                            "tempUrl": null,
+                            "uploadStatus": 3,
+                            "meta": {
+                              "width": 896,
+                              "height": 1152
+                            },
+                            "providerMeta": null,
+                            "aiParams": {
+                              "model": "flux-1-schnell",
+                              "steps": 30,
+                              "width": 896,
+                              "height": 1152,
+                              "prompt": "person smiling confidently after a workout, gym interior with weights, healthy lifestyle",
+                              "stylePreset": "Theme",
+                              "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                              "interactionId": "ihnkjmp2rs91i4x",
+                              "upscaleFactor": 1
+                            },
+                            "loadImageParams": {
+                              "provider": "aiGenerated",
+                              "query": "person smiling confidently after a workout, gym interior with weights, healthy lifestyle",
+                              "options": {
+                                "model": "flux-1-schnell",
+                                "stylePreset": "Theme",
+                                "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                                "aspectRatio": "portrait"
+                              }
+                            },
+                            "loadImageStatus": "done",
+                            "loadImageId": "zcIjO",
+                            "name": null,
+                            "query": "person smiling confidently after a workout, gym interior with weights, healthy lifestyle",
+                            "source": "image.ai-generated",
+                            "showPlaceholder": null,
+                            "fullWidthBlock": false,
+                            "resize": {
+                              "clipType": null,
+                              "clipPath": null,
+                              "clipAspectRatio": null,
+                              "width": null
+                            },
+                            "clickBehavior": null,
+                            "href": null,
+                            "provider": "baseten"
+                          },
+                          "source": "image.ai-generated",
+                          "mask": {
+                            "effect": "faded"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "cardLayoutItem",
+                      "attrs": {
+                        "itemId": "body"
+                      },
+                      "content": [
+                        {
+                          "type": "heading",
+                          "attrs": {
+                            "level": 1
+                          },
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Повышение самооценки"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "smartLayout",
+                          "attrs": {
+                            "variantKey": "textBoxes",
+                            "options": {
+                              "cellSize": "xl",
+                              "orientation": "vertical",
+                              "twoSided": false
+                            },
+                            "fullWidthBlock": false
+                          },
+                          "content": [
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "6uzM0",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Достижение целей"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт помогает ставить и достигать целей, что повышает чувство собственной значимости и уверенности в себе."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "N5uTL",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Положительный образ тела"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт способствует формированию здорового образа тела и повышает самооценку."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "card",
+                  "attrs": {
+                    "id": "gt1h07gmvirkkzm",
+                    "background": {
+                      "type": "none"
+                    },
+                    "container": {},
+                    "cardSize": "default",
+                    "layout": "right"
+                  },
+                  "content": [
+                    {
+                      "type": "cardAccentLayoutItem",
+                      "attrs": {
+                        "itemId": "accent",
+                        "fitType": "fill",
+                        "background": {
+                          "type": "image",
+                          "image": {
+                            "id": "MVFfq",
+                            "horizontalAlign": null,
+                            "savedMediaId": "jd1mtcjqaj3vfqz",
+                            "src": "https://cdn.gamma.app/jqbcrr6wgse06nt/generated-images/h9eLoCBUubMJeLhBWuGDE.jpg",
+                            "tempUrl": null,
+                            "uploadStatus": 3,
+                            "meta": {
+                              "width": 896,
+                              "height": 1152
+                            },
+                            "providerMeta": null,
+                            "aiParams": {
+                              "model": "flux-1-schnell",
+                              "steps": 30,
+                              "width": 896,
+                              "height": 1152,
+                              "prompt": "team of people playing soccer on a field, teamwork, smiles, outdoor setting",
+                              "stylePreset": "Theme",
+                              "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                              "interactionId": "ihnkjmp2rs91i4x",
+                              "upscaleFactor": 1
+                            },
+                            "loadImageParams": {
+                              "provider": "aiGenerated",
+                              "query": "team of people playing soccer on a field, teamwork, smiles, outdoor setting",
+                              "options": {
+                                "model": "flux-1-schnell",
+                                "stylePreset": "Theme",
+                                "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                                "aspectRatio": "portrait"
+                              }
+                            },
+                            "loadImageStatus": "done",
+                            "loadImageId": "cJBYP",
+                            "name": null,
+                            "query": "team of people playing soccer on a field, teamwork, smiles, outdoor setting",
+                            "source": "image.ai-generated",
+                            "showPlaceholder": null,
+                            "fullWidthBlock": false,
+                            "resize": {
+                              "clipType": null,
+                              "clipPath": null,
+                              "clipAspectRatio": null,
+                              "width": null
+                            },
+                            "clickBehavior": null,
+                            "href": null,
+                            "provider": "baseten"
+                          },
+                          "source": "image.ai-generated",
+                          "mask": {
+                            "effect": "faded"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "cardLayoutItem",
+                      "attrs": {
+                        "itemId": "body"
+                      },
+                      "content": [
+                        {
+                          "type": "heading",
+                          "attrs": {
+                            "level": 1
+                          },
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Развитие социальных навыков"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "smartLayout",
+                          "attrs": {
+                            "variantKey": "iconsText",
+                            "options": {
+                              "cellSize": "xl",
+                              "orientation": "vertical",
+                              "twoSided": false
+                            },
+                            "fullWidthBlock": false
+                          },
+                          "content": [
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "sBIY5",
+                                "options": {},
+                                "image": {
+                                  "loadImageParams": {
+                                    "provider": "fontawesome",
+                                    "query": "people",
+                                    "options": {
+                                      "license": "All",
+                                      "aspectRatio": "landscape"
+                                    }
+                                  },
+                                  "loadImageStatus": "done",
+                                  "loadImageId": "ilG3H",
+                                  "source": "image.icon",
+                                  "src": "https://cdn.gamma.app/_app_static/icons/v0/person.svg",
+                                  "tempUrl": "",
+                                  "meta": {
+                                    "height": 512,
+                                    "width": 320
+                                  },
+                                  "query": "people",
+                                  "uploadStatus": 3
+                                }
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Командная работа"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт учит командной работе, взаимодействию с другими людьми, умению решать задачи сообща."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "jAn43",
+                                "options": {},
+                                "image": {
+                                  "loadImageParams": {
+                                    "provider": "fontawesome",
+                                    "query": "communication",
+                                    "options": {
+                                      "license": "All",
+                                      "aspectRatio": "landscape"
+                                    }
+                                  },
+                                  "loadImageStatus": "done",
+                                  "loadImageId": "mS24k",
+                                  "source": "image.icon",
+                                  "src": "https://cdn.gamma.app/_app_static/icons/v0/tty.svg",
+                                  "tempUrl": "",
+                                  "meta": {
+                                    "height": 512,
+                                    "width": 512
+                                  },
+                                  "query": "communication",
+                                  "uploadStatus": 3
+                                }
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Коммуникация"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт способствует развитию коммуникативных навыков, умению общаться и взаимодействовать с другими."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "nesfZ",
+                                "options": {},
+                                "image": {
+                                  "loadImageParams": {
+                                    "provider": "fontawesome",
+                                    "query": "friendship",
+                                    "options": {
+                                      "license": "All",
+                                      "aspectRatio": "landscape"
+                                    }
+                                  },
+                                  "loadImageStatus": "done",
+                                  "loadImageId": "nEVh1",
+                                  "source": "image.custom",
+                                  "src": "https://cdn.gamma.app/jqbcrr6wgse06nt/4e9cb0b088ae45988dafe5cdcf5b4004/optimized/pen-nib.svg",
+                                  "tempUrl": null,
+                                  "meta": {
+                                    "height": 512,
+                                    "width": 512,
+                                    "svgViewBoxWidth": 512,
+                                    "svgViewBoxHeight": 512,
+                                    "date_file_modified": "2025/02/05 17:10:01 GMT",
+                                    "aspect_ratio": 1,
+                                    "has_clipping_path": false,
+                                    "frame_count": 1,
+                                    "average_color": "#bebebe",
+                                    "version_id": "5yjwnUxr2EX9wfo.pVn5ptSgcxZdq3ro"
+                                  },
+                                  "query": "friendship",
+                                  "uploadStatus": 0,
+                                  "showPlaceholder": false,
+                                  "name": "pen-nib.svg",
+                                  "uploadResultStep": "optimized"
+                                }
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Дружба"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт помогает найти новых друзей и развивать существующие связи."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "card",
+                  "attrs": {
+                    "id": "y59ul5rrdq1bb0i",
+                    "background": {
+                      "type": "none"
+                    },
+                    "container": {},
+                    "cardSize": "default",
+                    "layout": "left"
+                  },
+                  "content": [
+                    {
+                      "type": "cardAccentLayoutItem",
+                      "attrs": {
+                        "itemId": "accent",
+                        "fitType": "fill",
+                        "background": {
+                          "type": "image",
+                          "image": {
+                            "id": "QH0_4",
+                            "horizontalAlign": null,
+                            "savedMediaId": "xtuxxtd5f2u0xnn",
+                            "src": "https://cdn.gamma.app/jqbcrr6wgse06nt/generated-images/5qyPrjq3kaSKhyx-Md6dL.jpg",
+                            "tempUrl": null,
+                            "uploadStatus": 3,
+                            "meta": {
+                              "width": 896,
+                              "height": 1152
+                            },
+                            "providerMeta": null,
+                            "aiParams": {
+                              "model": "flux-1-schnell",
+                              "steps": 30,
+                              "width": 896,
+                              "height": 1152,
+                              "prompt": "person crossing finish line of a marathon, celebrating with a smile, crowd cheering, finish line banner, medal",
+                              "stylePreset": "Theme",
+                              "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                              "interactionId": "ihnkjmp2rs91i4x",
+                              "upscaleFactor": 1
+                            },
+                            "loadImageParams": {
+                              "provider": "aiGenerated",
+                              "query": "person crossing finish line of a marathon, celebrating with a smile, crowd cheering, finish line banner, medal",
+                              "options": {
+                                "model": "flux-1-schnell",
+                                "stylePreset": "Theme",
+                                "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                                "aspectRatio": "portrait"
+                              }
+                            },
+                            "loadImageStatus": "done",
+                            "loadImageId": "_ZcX7",
+                            "name": null,
+                            "query": "person crossing finish line of a marathon, celebrating with a smile, crowd cheering, finish line banner, medal",
+                            "source": "image.ai-generated",
+                            "showPlaceholder": null,
+                            "fullWidthBlock": false,
+                            "resize": {
+                              "clipType": null,
+                              "clipPath": null,
+                              "clipAspectRatio": null,
+                              "width": null
+                            },
+                            "clickBehavior": null,
+                            "href": null,
+                            "provider": "baseten"
+                          },
+                          "source": "image.ai-generated",
+                          "mask": {
+                            "effect": "faded"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "cardLayoutItem",
+                      "attrs": {
+                        "itemId": "body"
+                      },
+                      "content": [
+                        {
+                          "type": "heading",
+                          "attrs": {
+                            "level": 1
+                          },
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Достижение поставленных целей"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "smartLayout",
+                          "attrs": {
+                            "variantKey": "timeline",
+                            "options": {
+                              "orientation": "vertical",
+                              "twoSided": false,
+                              "cellSize": "xl"
+                            },
+                            "fullWidthBlock": false
+                          },
+                          "content": [
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "phcU2",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Постановка целей"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт позволяет ставить себе конкретные цели, будь то пробежать марафон, научиться кататься на велосипеде или просто улучшить физическую форму."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "Kh1W2",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Планирование тренировок"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Составление плана тренировок помогает систематизировать занятия и поддерживать мотивацию."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "ioqwK",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Достижение результатов"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Достижение поставленных целей в спорте приносит чувство удовлетворения и гордости."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "card",
+                  "attrs": {
+                    "id": "no0v09tdf3oofb1",
+                    "background": {
+                      "type": "none"
+                    },
+                    "container": {},
+                    "cardSize": "default",
+                    "layout": "top"
+                  },
+                  "content": [
+                    {
+                      "type": "cardAccentLayoutItem",
+                      "attrs": {
+                        "itemId": "accent",
+                        "fitType": "fill",
+                        "background": {
+                          "type": "image",
+                          "image": {
+                            "id": "fUEmX",
+                            "horizontalAlign": null,
+                            "savedMediaId": "oguicoxj4tcf9rw",
+                            "src": "https://cdn.gamma.app/jqbcrr6wgse06nt/generated-images/OcgYIHmigu7f_R3TIvnws.jpg",
+                            "tempUrl": null,
+                            "uploadStatus": 3,
+                            "meta": {
+                              "width": 1216,
+                              "height": 832
+                            },
+                            "providerMeta": null,
+                            "aiParams": {
+                              "model": "flux-1-schnell",
+                              "steps": 30,
+                              "width": 1216,
+                              "height": 832,
+                              "prompt": "woman riding a bicycle through a picturesque park, sunny day, green trees, joyful smile, happy expression",
+                              "stylePreset": "Theme",
+                              "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                              "interactionId": "ihnkjmp2rs91i4x",
+                              "upscaleFactor": 1
+                            },
+                            "loadImageParams": {
+                              "provider": "aiGenerated",
+                              "query": "woman riding a bicycle through a picturesque park, sunny day, green trees, joyful smile, happy expression",
+                              "options": {
+                                "model": "flux-1-schnell",
+                                "stylePreset": "Theme",
+                                "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                                "aspectRatio": "landscape"
+                              }
+                            },
+                            "loadImageStatus": "done",
+                            "loadImageId": "kYNbG",
+                            "name": null,
+                            "query": "woman riding a bicycle through a picturesque park, sunny day, green trees, joyful smile, happy expression",
+                            "source": "image.ai-generated",
+                            "showPlaceholder": null,
+                            "fullWidthBlock": false,
+                            "resize": {
+                              "clipType": null,
+                              "clipPath": null,
+                              "clipAspectRatio": null,
+                              "width": null
+                            },
+                            "clickBehavior": null,
+                            "href": null,
+                            "provider": "baseten"
+                          },
+                          "source": "image.ai-generated",
+                          "mask": {
+                            "effect": "faded"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "cardLayoutItem",
+                      "attrs": {
+                        "itemId": "body"
+                      },
+                      "content": [
+                        {
+                          "type": "heading",
+                          "attrs": {
+                            "level": 1
+                          },
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Спорт как хобби и образ жизни"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "smartLayout",
+                          "attrs": {
+                            "variantKey": "arrows",
+                            "options": {
+                              "cellSize": 10,
+                              "orientation": "horizontal"
+                            },
+                            "fullWidthBlock": false
+                          },
+                          "content": [
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "WMl5g",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Увлечение"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт может стать увлекательным хобби, которое приносит удовольствие и разгружает от повседневных забот."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "9iCcW",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Здоровые привычки"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Регулярные занятия спортом способствуют формированию здоровых привычек, которые улучшают качество жизни."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "smartLayoutCell",
+                              "attrs": {
+                                "id": "7L2bF",
+                                "options": {}
+                              },
+                              "content": [
+                                {
+                                  "type": "heading",
+                                  "attrs": {
+                                    "level": 4
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Энергия и мотивация"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Спорт помогает увеличить уровень энергии и мотивации, улучшая настроение и повышая продуктивность."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "card",
+                  "attrs": {
+                    "id": "0dzutoom5b6kh7n",
+                    "background": {
+                      "type": "none"
+                    },
+                    "container": {},
+                    "cardSize": "default",
+                    "layout": "right"
+                  },
+                  "content": [
+                    {
+                      "type": "cardAccentLayoutItem",
+                      "attrs": {
+                        "itemId": "accent",
+                        "fitType": "fill",
+                        "background": {
+                          "type": "image",
+                          "image": {
+                            "id": "yH6m6",
+                            "horizontalAlign": null,
+                            "savedMediaId": "4kldxbo37kvpm5g",
+                            "src": "https://cdn.gamma.app/jqbcrr6wgse06nt/generated-images/Atcdy1gNGo0UN3aoyez7O.jpg",
+                            "tempUrl": null,
+                            "uploadStatus": 3,
+                            "meta": {
+                              "width": 896,
+                              "height": 1152
+                            },
+                            "providerMeta": null,
+                            "aiParams": {
+                              "model": "flux-1-schnell",
+                              "steps": 30,
+                              "width": 896,
+                              "height": 1152,
+                              "prompt": "person looking out at the horizon, sunset, mountains, peaceful expression, calm reflection",
+                              "stylePreset": "Theme",
+                              "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                              "interactionId": "ihnkjmp2rs91i4x",
+                              "upscaleFactor": 1
+                            },
+                            "loadImageParams": {
+                              "provider": "aiGenerated",
+                              "query": "person looking out at the horizon, sunset, mountains, peaceful expression, calm reflection",
+                              "options": {
+                                "model": "flux-1-schnell",
+                                "stylePreset": "Theme",
+                                "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+                                "aspectRatio": "portrait"
+                              }
+                            },
+                            "loadImageStatus": "done",
+                            "loadImageId": "KHORY",
+                            "name": null,
+                            "query": "person looking out at the horizon, sunset, mountains, peaceful expression, calm reflection",
+                            "source": "image.ai-generated",
+                            "showPlaceholder": null,
+                            "fullWidthBlock": false,
+                            "resize": {
+                              "clipType": null,
+                              "clipPath": null,
+                              "clipAspectRatio": null,
+                              "width": null
+                            },
+                            "clickBehavior": null,
+                            "href": null,
+                            "provider": "baseten"
+                          },
+                          "source": "image.ai-generated",
+                          "mask": {
+                            "effect": "faded"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "cardLayoutItem",
+                      "attrs": {
+                        "itemId": "body"
+                      },
+                      "content": [
+                        {
+                          "type": "heading",
+                          "attrs": {
+                            "level": 1
+                          },
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Вывод: спорт - ключ к благополучию"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Спорт - это не просто физическая активность, это ключ к гармоничному и здоровому образу жизни. Он помогает улучшить физическое и психическое здоровье, повысить самооценку и развить социальные навыки. Спорт дает нам силы, энергию и мотивацию для достижения поставленных целей."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "GammaPersistenceMeta": {
+          "READY": true
+        },
+        "SCHEMA_VERSION": {
+          "REQUIRED_VERSION": 115
+        },
+        "annotations": {
+          "tarspza8ydryo2s": {
+            "id": "tarspza8ydryo2s",
+            "pos": {
+              "type": {
+                "client": 2321164104,
+                "clock": 15
+              },
+              "tname": null,
+              "item": {
+                "client": 2321164104,
+                "clock": 41
+              },
+              "assoc": 0
+            }
+          },
+          "j5wzqx9wpyhsgs5": {
+            "id": "j5wzqx9wpyhsgs5",
+            "pos": {
+              "type": {
+                "client": 2321164104,
+                "clock": 15
+              },
+              "tname": null,
+              "item": {
+                "client": 2321164104,
+                "clock": 41
+              },
+              "assoc": 0
+            }
+          },
+          "d31288o3cpdnuua": {
+            "id": "d31288o3cpdnuua",
+            "pos": {
+              "type": {
+                "client": 2321164104,
+                "clock": 15
+              },
+              "tname": null,
+              "item": {
+                "client": 2321164104,
+                "clock": 41
+              },
+              "assoc": 0
+            }
+          }
+        },
+        "annotationsAbsolute": {
+          "tarspza8ydryo2s": {
+            "id": "tarspza8ydryo2s",
+            "absPos": 27
+          },
+          "j5wzqx9wpyhsgs5": {
+            "id": "j5wzqx9wpyhsgs5",
+            "absPos": 27
+          },
+          "d31288o3cpdnuua": {
+            "id": "d31288o3cpdnuua",
+            "absPos": 27
+          }
+        },
+        "annotationMigrations": {
+          "AnnotationsYKeyValue": true
+        }
+      },
+      "schemaVersion": 115,
+      "__typename": "Snapshot"
+    }
+  }
+}

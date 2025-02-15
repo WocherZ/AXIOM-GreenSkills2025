@@ -1,0 +1,15 @@
+# docker-compose.yml
+version: "3"
+services:
+  front:
+    build:
+      context: ./
+      dockerfile: ./docker/container/front/Dockerfile
+#    env_file:
+#      - .env
+    container_name: "front"
+    command: "nginx -g 'daemon off;'"
+    restart: on-failure
+    ports:
+      - "80:80"
+
