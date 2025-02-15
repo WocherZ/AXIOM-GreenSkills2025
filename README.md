@@ -3,4 +3,4 @@
 
 ## Документация по развертыванию backend
 
-[backend] (./backend/README.md)
+[backend] (/AXIOM-GreenSkills2025/backend/README.md)
