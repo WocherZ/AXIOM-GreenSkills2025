@@ -3,4 +3,4 @@
 
 ## Документация по развертыванию backend
 
-[backend] (backend/README.md)
+[backend] (./backend/README.md)
