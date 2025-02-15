@@ -7,3 +7,5 @@
 
 ## Документация по развертыванию [ml](./ML/service/README.md)
 
+## Документация по развертыванию [frontend](./frontend/README.md)
+
