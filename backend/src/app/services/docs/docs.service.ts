@@ -211,6 +211,7 @@ export class DocsService {
         theme: true,
         preview: true,
         folder: true,
+        createdBy: true,
       },
     });
 

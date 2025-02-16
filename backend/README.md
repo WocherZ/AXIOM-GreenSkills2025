@@ -4,8 +4,6 @@
 
 - Docker
 - Docker Compose
-- npm
-- yarn
 
 ## Установка
 1. Клонируйте репозиторий:

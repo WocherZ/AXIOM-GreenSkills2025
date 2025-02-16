@@ -34,6 +34,12 @@ const routes: RouteRecordRaw[] = [
         meta: { authRequired: true }
       },
       {
+        path: 'generate/:draftId',
+        name: 'GenerateDraftPage',
+        component: () => import('pages/GeneratePage.vue'),
+        meta: { authRequired: true }
+      },
+      {
         path: 'import',
         name: 'ImportPage',
         component: () => import('pages/ImportPage.vue'),

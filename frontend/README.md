@@ -1,24 +1,33 @@
-# Frontend Application
+# Green Skills App (green-skills)
 
-## Требования
+Green Skills Application Frontend
 
-- Docker
-- Docker Compose
+## Install the dependencies
+```bash
+yarn
+# or
+npm install
+```
 
-## Установка
-1. Клонируйте репозиторий:
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
+```
 
-    ```sh
-    git clone https://github.com/WocherZ/AXIOM-GreenSkills2025.git
-    cd ./AXIOM-GreenSkills2025/frontend
-    ```
-## Запуск
-    ```
-1. Соберите и запустите контейнеры:
 
-    ```sh
-    docker build -t front -f ./docker/container/front/Dockerfile .
-    docker compose up -d
-    ```
+### Lint the files
+```bash
+yarn lint
+# or
+npm run lint
+```
 
-3. Приложение будет доступно по адресу `http://localhost:9000`.
+
+
+### Build the app for production
+```bash
+quasar build
+```
+
+### Customize the configuration
+See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).

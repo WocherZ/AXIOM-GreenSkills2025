@@ -64,7 +64,7 @@ async function upload () {
     formData.append('path', path)
     const auth: AuthResponseDto | null = SessionStorage.getItem('auth')
     const accessToken = auth?.accessToken
-    const resp = await api.post('http://158.160.132.237:8080/api/files?path=prompt%2Ffiles', formData, { headers: { 'Authorization': `Bearer ${accessToken}` } })
+    const resp = await api.post('http://176.114.91.72:8080/api/files?path=prompt%2Ffiles', formData, { headers: { 'Authorization': `Bearer ${accessToken}` } })
     loading.value = false
     file.value = resp.data[0]
   }
@@ -167,5 +167,11 @@ async function upload () {
 <style lang="scss" scoped>
 .my-card {
   width: 15rem;
+  cursor: pointer;
+  transition: transform .2s;
+  &:hover {
+    transform: scale(1.1);
+    z-index: 10;
+  }
 }
 </style>
