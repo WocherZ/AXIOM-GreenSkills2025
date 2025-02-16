@@ -1,0 +1,1347 @@
+---
+openapi: 3.0.0
+paths:
+  "/api/readiness":
+    get:
+      operationId: AppController_isReady
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      summary: Api is ready
+      tags:
+        - service
+  "/api/auth/login":
+    post:
+      operationId: AuthController_login
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/AuthLoginDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/AuthResponseDto"
+        '400':
+          description: Неверный логин или пароль
+      tags:
+        - Авторизация
+  "/api/auth/sign-up":
+    post:
+      operationId: AuthController_register
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/AuthRegisterDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/AuthRegisterDto"
+        '400':
+          description: Неверный логин или пароль
+      tags:
+        - Авторизация
+  "/api/auth/refresh-token":
+    post:
+      operationId: AuthController_refreshToken
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/AuthRefreshTokenDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/AuthResponseDto"
+        '400':
+          description: Неверный логин или пароль
+      tags:
+        - Авторизация
+  "/api/auth/forgot-password":
+    post:
+      operationId: AuthController_forgotPassword
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/AuthForgotPasswordDto"
+      responses:
+        '204':
+          description: ''
+      tags:
+        - Авторизация
+  "/api/auth/reset-password":
+    post:
+      operationId: AuthController_resetPassword
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/AuthResetPasswordDto"
+      responses:
+        '204':
+          description: ''
+      tags:
+        - Авторизация
+  "/api/auth/change-password":
+    post:
+      operationId: AuthController_changePassword
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/AuthChangePasswordDto"
+      responses:
+        '204':
+          description: ''
+        '401':
+          description: Неверный пароль
+        '404':
+          description: Пользователь не найден
+      security:
+        - bearer: []
+      summary: Изменение пароля пользователя
+      tags:
+        - Авторизация
+  "/api/auth/me":
+    get:
+      operationId: AuthController_getProfile
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/User"
+        '404':
+          description: Пользователь не найден
+      security:
+        - bearer: []
+      summary: Получить свой профиль
+      tags:
+        - Авторизация
+    patch:
+      operationId: AuthController_updateProfile
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/UpdateProfileDto"
+      responses:
+        '200':
+          description: ''
+        '404':
+          description: Пользователь не найден
+      security:
+        - bearer: []
+      summary: Обновить свой профиль
+      tags:
+        - Авторизация
+  "/api/auth/logout":
+    post:
+      operationId: AuthController_logout
+      parameters: []
+      responses:
+        '204':
+          description: ''
+      security:
+        - bearer: []
+      summary: Выйти из аккаунта
+      tags:
+        - Авторизация
+  "/api/admin/users":
+    post:
+      operationId: UsersController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/CreateUserDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/User"
+      security:
+        - bearer: []
+      summary: Добавить пользователя
+      tags:
+        - Пользователи
+    get:
+      operationId: UsersController_findAll
+      parameters:
+        - name: page
+          required: false
+          in: query
+          schema:
+            minimum: 0
+            default: 1
+            type: number
+        - name: limit
+          required: false
+          in: query
+          schema:
+            minimum: 0
+            maximum: 100
+            default: 10
+            type: number
+        - name: customer
+          required: false
+          in: query
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                required:
+                  - data
+                properties:
+                  data:
+                    type: array
+                    items:
+                      oneOf:
+                        - "$ref": "#/components/schemas/User"
+                  meta:
+                    "$ref": "#/components/schemas/PageMetaDto"
+      security:
+        - bearer: []
+      summary: Получить всех пользователей
+      tags:
+        - Пользователи
+  "/api/admin/users/roles":
+    get:
+      operationId: UsersController_findAllRoles
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                required:
+                  - data
+                properties:
+                  data:
+                    type: array
+                    items:
+                      oneOf:
+                        - "$ref": "#/components/schemas/Role"
+                  meta:
+                    "$ref": "#/components/schemas/PageMetaDto"
+      security:
+        - bearer: []
+      summary: Получить все роли
+      tags:
+        - Пользователи
+  "/api/admin/users/{roleId}/{userId}/roles":
+    put:
+      operationId: UsersController_updateUserRole
+      parameters:
+        - name: roleId
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: userId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                required:
+                  - data
+                properties:
+                  data:
+                    type: array
+                    items:
+                      oneOf:
+                        - "$ref": "#/components/schemas/User"
+                  meta:
+                    "$ref": "#/components/schemas/PageMetaDto"
+      security:
+        - bearer: []
+      summary: Обновить роль пользователя
+      tags:
+        - Пользователи
+  "/api/admin/users/{id}":
+    get:
+      operationId: UsersController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/User"
+        '404':
+          description: Пользователь не найден
+      security:
+        - bearer: []
+      summary: Получить пользователя
+      tags:
+        - Пользователи
+    patch:
+      operationId: UsersController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/UpdateUserDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/User"
+        '404':
+          description: Пользователь не найден
+      security:
+        - bearer: []
+      summary: Обновить пользователя
+      tags:
+        - Пользователи
+    delete:
+      operationId: UsersController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '204':
+          description: ''
+        '404':
+          description: Пользователь не найден
+      security:
+        - bearer: []
+      summary: Удалить пользователя
+      tags:
+        - Пользователи
+  "/api/files":
+    post:
+      operationId: FilesController_create
+      parameters:
+        - name: path
+          required: true
+          in: query
+          schema:
+            type: string
+      requestBody:
+        required: true
+        description: Загрузить один файл
+        content:
+          multipart/form-data:
+            schema:
+              "$ref": "#/components/schemas/FileUploadDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/File"
+      security:
+        - bearer: []
+      summary: Загрузить файл
+      tags:
+        - Файлы
+    get:
+      operationId: FilesController_findAll
+      parameters:
+        - name: page
+          required: false
+          in: query
+          schema:
+            minimum: 0
+            default: 1
+            type: number
+        - name: limit
+          required: false
+          in: query
+          schema:
+            minimum: 0
+            maximum: 100
+            default: 10
+            type: number
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                required:
+                  - data
+                properties:
+                  data:
+                    type: array
+                    items:
+                      oneOf:
+                        - "$ref": "#/components/schemas/File"
+                  meta:
+                    "$ref": "#/components/schemas/PageMetaDto"
+      security:
+        - bearer: []
+      summary: Получить все файлы
+      tags:
+        - Файлы
+  "/api/files/{id}":
+    get:
+      operationId: FilesController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+        '404':
+          description: Файл не найден
+      security:
+        - bearer: []
+      summary: Получить один файл
+      tags:
+        - Файлы
+    delete:
+      operationId: FilesController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '204':
+          description: ''
+        '404':
+          description: Файл не найден
+      security:
+        - bearer: []
+      summary: Удалить файл
+      tags:
+        - Файлы
+  "/api/workspaces/{id}/join/{code}":
+    post:
+      operationId: WorkspaceController_acceptInvite
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: code
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '201':
+          description: ''
+      security:
+        - bearer: []
+      summary: Принять инвайт по ссылке приглашению
+      tags:
+        - Рабочее пространство
+  "/api/workspaces/{id}/exclude/{memberId}":
+    patch:
+      operationId: WorkspaceController_excludeMember
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: memberId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security:
+        - bearer: []
+      tags:
+        - Рабочее пространство
+  "/api/workspaces/{id}":
+    get:
+      operationId: WorkspaceController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Workspace"
+        '404':
+          description: Ресурс не найден
+      security:
+        - bearer: []
+      summary: Получить по id
+      tags:
+        - Рабочее пространство
+    patch:
+      operationId: WorkspaceController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/UpdateWorkspaceDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Workspace"
+        '404':
+          description: Ресурс не найден
+      security:
+        - bearer: []
+      summary: Обновить ресурс по id
+      tags:
+        - Рабочее пространство
+  "/api/folders":
+    post:
+      operationId: FolderController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/CreateFolderDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Folder"
+        '400':
+          description: Название папки должно быть уникальным
+      security:
+        - bearer: []
+      summary: Создать папку
+      tags:
+        - Папки
+    get:
+      operationId: FolderController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  "$ref": "#/components/schemas/Folder"
+      security:
+        - bearer: []
+      summary: Получить список своих папок
+      tags:
+        - Папки
+  "/api/folders/{id}":
+    get:
+      operationId: FolderController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Folder"
+      security:
+        - bearer: []
+      summary: Получить папку по id
+      tags:
+        - Папки
+    patch:
+      operationId: FolderController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/UpdateFolderDto"
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Folder"
+        '400':
+          description: Название папки должно быть уникальным
+      security:
+        - bearer: []
+      summary: Обновить папку по id
+      tags:
+        - Папки
+    delete:
+      operationId: FolderController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security:
+        - bearer: []
+      tags:
+        - Папки
+  "/api/folders/{id}/add-member/{memberId}":
+    patch:
+      operationId: FolderController_addMemberToFolder
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: memberId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security:
+        - bearer: []
+      summary: Добавить пользователя своего workspace в папку
+      tags:
+        - Папки
+  "/api/folders/{id}/remove-member/{memberId}":
+    patch:
+      operationId: FolderController_removeMemberFromFolder
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: memberId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security:
+        - bearer: []
+      summary: Удалить пользователя своего workspace из папку
+      tags:
+        - Папки
+  "/api/docs/generate":
+    post:
+      operationId: DocsController_generate
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/DocGenerateDto"
+      responses:
+        '201':
+          description: ''
+      security:
+        - bearer: []
+      tags:
+        - Документы
+  "/api/docs":
+    get:
+      operationId: DocsController_findAll
+      parameters:
+        - name: page
+          required: false
+          in: query
+          schema:
+            minimum: 0
+            default: 1
+            type: number
+        - name: limit
+          required: false
+          in: query
+          schema:
+            minimum: 0
+            maximum: 100
+            default: 10
+            type: number
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                required:
+                  - data
+                properties:
+                  data:
+                    type: array
+                    items:
+                      oneOf:
+                        - "$ref": "#/components/schemas/Document"
+                  meta:
+                    "$ref": "#/components/schemas/PageMetaDto"
+      security:
+        - bearer: []
+      summary: Получить все документы
+      tags:
+        - Документы
+  "/api/docs/{id}":
+    get:
+      operationId: DocsController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security:
+        - bearer: []
+      tags:
+        - Документы
+    patch:
+      operationId: DocsController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/UpdateDocDto"
+      responses:
+        '200':
+          description: ''
+      security:
+        - bearer: []
+      tags:
+        - Документы
+    delete:
+      operationId: DocsController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security:
+        - bearer: []
+      tags:
+        - Документы
+info:
+  title: PBR test App
+  description: The PBR test API description
+  version: '1.0'
+  contact: {}
+tags:
+  - name: PBR test App
+    description: ''
+servers: []
+components:
+  securitySchemes:
+    bearer:
+      scheme: bearer
+      bearerFormat: JWT
+      type: http
+  schemas:
+    File:
+      type: object
+      properties:
+        id:
+          type: string
+        fileKey:
+          type: string
+        fileName:
+          type: string
+        type:
+          type: string
+        dir:
+          type: string
+        size:
+          type: number
+        extension:
+          type: string
+        mime:
+          type: string
+        s3id:
+          type: string
+        createdAt:
+          format: date-time
+          type: string
+        updatedAt:
+          format: date-time
+          type: string
+        fileUrl:
+          type: string
+      required:
+        - id
+        - fileKey
+        - fileName
+        - type
+        - dir
+        - size
+        - extension
+        - mime
+        - s3id
+        - createdAt
+        - updatedAt
+        - fileUrl
+    Role:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        slug:
+          type: string
+          enum:
+            - administrator
+            - user
+            - moderator
+      required:
+        - id
+        - name
+        - slug
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        profileImage:
+          "$ref": "#/components/schemas/File"
+        password:
+          type: string
+        role:
+          "$ref": "#/components/schemas/Role"
+        createdAt:
+          format: date-time
+          type: string
+        updatedAt:
+          format: date-time
+          type: string
+      required:
+        - id
+        - firstName
+        - lastName
+        - email
+        - profileImage
+        - password
+        - role
+        - createdAt
+        - updatedAt
+    AuthLoginDto:
+      type: object
+      properties:
+        email:
+          type: string
+        password:
+          type: string
+          default: pa$sW0rd
+      required:
+        - email
+        - password
+    AuthResponseDto:
+      type: object
+      properties:
+        accessToken:
+          type: string
+          readOnly: true
+        refreshToken:
+          type: string
+          readOnly: true
+        expiresIn:
+          type: number
+          readOnly: true
+        refreshExpiresIn:
+          type: number
+          readOnly: true
+      required:
+        - accessToken
+        - refreshToken
+        - expiresIn
+        - refreshExpiresIn
+    AuthRegisterDto:
+      type: object
+      properties:
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+      required:
+        - firstName
+        - lastName
+        - email
+        - password
+    AuthRefreshTokenDto:
+      type: object
+      properties:
+        refreshToken:
+          type: string
+      required:
+        - refreshToken
+    AuthForgotPasswordDto:
+      type: object
+      properties:
+        email:
+          type: string
+      required:
+        - email
+    AuthResetPasswordDto:
+      type: object
+      properties:
+        email:
+          type: string
+        hash:
+          type: string
+        password:
+          type: string
+        retryPassword:
+          type: string
+      required:
+        - email
+        - hash
+        - password
+        - retryPassword
+    AuthChangePasswordDto:
+      type: object
+      properties:
+        repeatPassword:
+          type: string
+        newPassword:
+          type: string
+      required:
+        - repeatPassword
+        - newPassword
+    UpdateProfileDto:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+      required:
+        - name
+        - email
+    PageMetaDto:
+      type: object
+      properties:
+        page:
+          type: number
+        limit:
+          type: number
+        itemCount:
+          type: number
+        pageCount:
+          type: number
+        hasPreviousPage:
+          type: boolean
+        hasNextPage:
+          type: boolean
+      required:
+        - page
+        - limit
+        - itemCount
+        - pageCount
+        - hasPreviousPage
+        - hasNextPage
+    CreateUserDto:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        roleId:
+          type: string
+      required:
+        - name
+        - email
+        - password
+        - roleId
+    UpdateUserDto:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        roleId:
+          type: string
+    FileUploadDto:
+      type: object
+      properties:
+        files:
+          type: string
+          format: binary
+        path:
+          type: string
+          enum:
+            - products/photos
+            - products/files
+      required:
+        - files
+        - path
+    Workspace:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        slug:
+          type: string
+        inviteCode:
+          type: string
+        workspaceMembers:
+          type: array
+          items:
+            type: string
+        workspaceMemberPermission:
+          type: string
+        accessLinkPermission:
+          type: string
+        logo:
+          "$ref": "#/components/schemas/File"
+        disabled:
+          type: boolean
+        disabledReason:
+          type: boolean
+        disabledComment:
+          type: boolean
+        createdAt:
+          format: date-time
+          type: string
+        updatedAt:
+          format: date-time
+          type: string
+      required:
+        - id
+        - name
+        - slug
+        - inviteCode
+        - workspaceMembers
+        - workspaceMemberPermission
+        - accessLinkPermission
+        - logo
+        - disabled
+        - disabledReason
+        - disabledComment
+        - createdAt
+        - updatedAt
+    UpdateWorkspaceDto:
+      type: object
+      properties:
+        name:
+          type: string
+        logoId:
+          type: string
+      required:
+        - name
+        - logoId
+    Folder:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        slug:
+          type: string
+        members:
+          type: array
+          items:
+            type: string
+        workspace:
+          "$ref": "#/components/schemas/Workspace"
+        workspaceId:
+          type: string
+        memberCount:
+          type: number
+        isMemeber:
+          type: boolean
+        archived:
+          type: boolean
+        createdAt:
+          format: date-time
+          type: string
+        updatedAt:
+          format: date-time
+          type: string
+      required:
+        - id
+        - name
+        - slug
+        - members
+        - workspace
+        - workspaceId
+        - memberCount
+        - isMemeber
+        - archived
+        - createdAt
+        - updatedAt
+    CreateFolderDto:
+      type: object
+      properties:
+        name:
+          type: string
+      required:
+        - name
+    UpdateFolderDto:
+      type: object
+      properties:
+        name:
+          type: string
+    SettingsProps:
+      type: object
+      properties:
+        tone:
+          type: string
+        locale:
+          type: string
+        audience:
+          type: string
+        textMode:
+          type: string
+        editorMode:
+          type: string
+        textAmount:
+          type: string
+        imageProvider:
+          type: string
+        styleTemplate:
+          type: string
+        verticalAlign:
+          type: string
+        cardDimensions:
+          type: string
+        defaultFullBleed:
+          type: string
+        scaleContentToFit:
+          type: boolean
+        stylesDerivedFrom:
+          type: string
+        defaultContentWidth:
+          type: string
+        numCards:
+          type: number
+        fontSize:
+          type: string
+        imageLicense:
+          type: string
+    DocGenerate:
+      type: object
+      properties:
+        id:
+          type: string
+        status:
+          type: string
+          enum:
+            - draft
+            - generate
+        prompt:
+          type: string
+        content:
+          type: string
+        settings:
+          "$ref": "#/components/schemas/SettingsProps"
+        userId:
+          type: string
+        createdBy:
+          "$ref": "#/components/schemas/User"
+        createdAt:
+          format: date-time
+          type: string
+        updatedAt:
+          format: date-time
+          type: string
+      required:
+        - id
+        - status
+        - prompt
+        - content
+        - settings
+        - userId
+        - createdBy
+        - createdAt
+        - updatedAt
+    Document:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        preview:
+          "$ref": "#/components/schemas/File"
+        archived:
+          type: boolean
+        isFavorited:
+          type: boolean
+        workspace:
+          "$ref": "#/components/schemas/Workspace"
+        workspaceId:
+          type: string
+        docGenerateInput:
+          "$ref": "#/components/schemas/DocGenerate"
+        folder:
+          "$ref": "#/components/schemas/Folder"
+        folderId:
+          type: string
+        userId:
+          type: string
+        createdBy:
+          "$ref": "#/components/schemas/User"
+        createdAt:
+          format: date-time
+          type: string
+        updatedAt:
+          format: date-time
+          type: string
+      required:
+        - id
+        - title
+        - preview
+        - archived
+        - isFavorited
+        - workspace
+        - workspaceId
+        - docGenerateInput
+        - folder
+        - folderId
+        - userId
+        - createdBy
+        - createdAt
+        - updatedAt
+    DocGenerateDto:
+      type: object
+      properties:
+        prompt:
+          type: string
+      required:
+        - prompt
+    UpdateDocDto:
+      type: object
+      properties:
+        title:
+          type: string
+        previewId:
+          type: string
+        folderId:
+          type: string
+        archived:
+          type: boolean
+        isFavorited:
+          type: boolean

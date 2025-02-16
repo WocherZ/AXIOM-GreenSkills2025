@@ -1,0 +1,4758 @@
+{
+  "data": [
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "headingFont": "Raleway",
+      "headingFontWeight": 400,
+      "bodyFont": "Roboto",
+      "bodyFontWeight": 400,
+      "accentColor": "#1B1B27",
+      "logoUrl": null,
+      "config": {
+        "keywords": {
+          "tone": [
+            "serious",
+            "classy",
+            "corporate",
+            "formal",
+            "elegant",
+            "professional",
+            "simple",
+            "minimalist",
+            "clean",
+            "soft",
+            "modern",
+            "high tech",
+            "fresh",
+            "thin"
+          ],
+          "color": [
+            "light",
+            "white",
+            "black",
+            "b&w",
+            "cool",
+            "contrast",
+            "gray",
+            "light-gray"
+          ]
+        },
+        "bodyColor": "#3C3939",
+        "themeBase": "glass",
+        "background": {
+          "type": "color",
+          "color": {
+            "hex": "#ECECF3"
+          },
+          "image": {
+            "src": "https://images.unsplash.com/photo-1619252584172-a83a949b6efd?ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHwyfHx3aGl0ZSUyMGdyYWRpZW50fGVufDF8fHx8MTY3NjkxMjMzNA&ixlib=rb-4.0.3&w=3000&q=25",
+            "meta": {
+              "width": 3000,
+              "height": 2250
+            },
+            "query": "white gradient",
+            "tempUrl": "https://images.unsplash.com/photo-1619252584172-a83a949b6efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHwyfHx3aGl0ZSUyMGdyYWRpZW50fGVufDF8fHx8MTY3NjkxMjMzNA&ixlib=rb-4.0.3&q=80&w=200"
+          },
+          "source": "color.solid"
+        },
+        "stylePrompt": "Classy and modern with a corporate and minimalist touch. Tone is serious yet elegant, using a palette of light, white, and cool gray colors.",
+        "headingColor": "#1B1B27",
+        "accentBackgrounds": [
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-01_c60d988c.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-01_c60d988c.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "c60d988c",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-02_882c22b3.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-02_882c22b3.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "882c22b3",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-03_2a376d17.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-03_2a376d17.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "2a376d17",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-04_463f8abf.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-04_463f8abf.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "463f8abf",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-05_1f787ddd.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-05_1f787ddd.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "1f787ddd",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-06_085f83a1.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-06_085f83a1.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "085f83a1",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-07_6c93638c.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-07_6c93638c.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "6c93638c",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-08_29e10395.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-08_29e10395.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "29e10395",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-09_9450e72d.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-09_9450e72d.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "9450e72d",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-10_1d71a9ae.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-10_1d71a9ae.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "1d71a9ae",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-11_dff4ea30.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-11_dff4ea30.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "dff4ea30",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-12_33cd77b6.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-12_33cd77b6.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "33cd77b6",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-13_c30b1623.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-13_c30b1623.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "c30b1623",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-14_10aee57a.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-14_10aee57a.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "10aee57a",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-15_68dab7d6.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-15_68dab7d6.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "68dab7d6",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-16_6f34a74e.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-16_6f34a74e.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "6f34a74e",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-17_a4184fe9.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-17_a4184fe9.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "a4184fe9",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-18_93a33789.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-18_93a33789.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "93a33789",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-19_73e88596.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-19_73e88596.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "73e88596",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-20_db108e67.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-20_db108e67.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "db108e67",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/pearl/pearl-21_1193b280.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "pearl-21_1193b280.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "1193b280",
+            "originalSource": "image.custom"
+          }
+        ]
+      },
+      "priority": 522,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/pearl/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "vortex",
+      "name": "Vortex",
+      "headingFont": "Poppins",
+      "headingFontWeight": 300,
+      "bodyFont": "Roboto",
+      "bodyFontWeight": 300,
+      "accentColor": "#F2F2F3",
+      "logoUrl": null,
+      "config": {
+        "keywords": {
+          "tone": [
+            "serious",
+            "classy",
+            "elegant",
+            "professional",
+            "simple",
+            "minimalist",
+            "clean",
+            "luxury",
+            "modern",
+            "futuristic",
+            "thin"
+          ],
+          "color": [
+            "dark",
+            "black",
+            "b&w",
+            "white",
+            "contrast"
+          ]
+        },
+        "themeBase": "default",
+        "background": {
+          "type": "color",
+          "color": {
+            "hex": "#19191A"
+          },
+          "image": {
+            "src": "https://images.unsplash.com/photo-1603715749723-240c88df18b1?ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHwxMHx8YmxhY2slMjBncmFkaWVudHxlbnwxfHx8fDE2NzY5MTA3OTk&ixlib=rb-4.0.3&w=3000&q=25",
+            "meta": {
+              "width": 3000,
+              "height": 2000
+            },
+            "query": "black gradient",
+            "tempUrl": "https://images.unsplash.com/photo-1603715749723-240c88df18b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHwxMHx8YmxhY2slMjBncmFkaWVudHxlbnwxfHx8fDE2NzY5MTA3OTk&ixlib=rb-4.0.3&q=80&w=200"
+          },
+          "source": "color.solid",
+          "gradient": {
+            "css": {
+              "backgroundImage": "radial-gradient(circle at 0% 0%, #7882ff80 0, #7882ff00 50%),radial-gradient(circle at 15.363872270829459% 48.045808406244184%, #dee0ff80 0, #dee0ff00 82.68193613541473%),radial-gradient(circle at 0% 0%, #ffffff80 0, #ffffff00 50%),linear-gradient(0deg, #7882ff80 0%, #7882ff80 100%)"
+            },
+            "vibe": "mono",
+            "primaryColor": "#7882ff"
+          }
+        },
+        "stylePrompt": "Luxurious and futuristic with a simple, clean design. Professional yet elegant using a color scheme of dark, black, and high contrast.",
+        "headingColor": "#F2F2F3",
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#050505"
+          }
+        },
+        "accentBackgrounds": [
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-01_95919ea6.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-01_95919ea6.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "95919ea6",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-02_8ef46342.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-02_8ef46342.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "8ef46342",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-03_97eee17d.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-03_97eee17d.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "97eee17d",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-04_63ebf8db.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-04_63ebf8db.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "63ebf8db",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-05_33efa9ea.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-05_33efa9ea.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "33efa9ea",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-06_f5ea9d17.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-06_f5ea9d17.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "f5ea9d17",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-07_9c1ac825.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-07_9c1ac825.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "9c1ac825",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-08_180edd44.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-08_180edd44.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "180edd44",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-09_bcb78db8.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-09_bcb78db8.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "bcb78db8",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-10_6d639a7a.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-10_6d639a7a.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "6d639a7a",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-11_cf60f1c8.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-11_cf60f1c8.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "cf60f1c8",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-12_d8baffc4.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-12_d8baffc4.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "d8baffc4",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-13_c2975ad0.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-13_c2975ad0.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "c2975ad0",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-14_dd4f8096.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-14_dd4f8096.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "dd4f8096",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-16_6a91db34.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-16_6a91db34.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "6a91db34",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-18_22b175fb.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-18_22b175fb.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "22b175fb",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-20_1fffb8ec.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-20_1fffb8ec.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "1fffb8ec",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-21_6b80917e.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-21_6b80917e.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "6b80917e",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-22_ce333a92.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-22_ce333a92.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "ce333a92",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-23_1262b0c2.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-23_1262b0c2.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "1262b0c2",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/vortex/vortex-24_71c1ad0d.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "vortex-24_71c1ad0d.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "71c1ad0d",
+            "originalSource": "image.custom"
+          }
+        ]
+      },
+      "priority": 521,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/vortex/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "chisel",
+      "name": "Chisel",
+      "headingFont": "Platypi",
+      "headingFontWeight": 500,
+      "bodyFont": "Source Serif Pro",
+      "bodyFontWeight": 400,
+      "accentColor": "#3E2513",
+      "logoUrl": null,
+      "config": {
+        "keywords": {
+          "tone": [
+            "professional",
+            "simple",
+            "modern",
+            "serif",
+            "earthy"
+          ],
+          "color": [
+            "white",
+            "tan",
+            "brown",
+            "beige",
+            "neutral",
+            "subtle"
+          ]
+        },
+        "bodyColor": "#504C49",
+        "shapeFill": "semi",
+        "themeBase": "finesse",
+        "background": {
+          "type": "color",
+          "color": {
+            "hex": "#F7F3F0"
+          },
+          "source": "color.solid"
+        },
+        "shapeBorder": "none",
+        "stylePrompt": "Light colors, neutrals, brown, beige",
+        "headingColor": "#201B18",
+        "accentGradient": {
+          "angle": 90,
+          "colors": [
+            "#3E2513",
+            "#1C9778"
+          ],
+          "disabled": true
+        },
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        },
+        "shapeColorScheme": "default",
+        "accentBackgrounds": [],
+        "secondaryAccentColors": [
+          "#F3E3D8"
+        ],
+        "disableReadabilityAdjustment": false
+      },
+      "priority": 511,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/chisel/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "stardust",
+      "name": "Stardust",
+      "headingFont": "Saira",
+      "headingFontWeight": 500,
+      "bodyFont": "Roboto",
+      "bodyFontWeight": 400,
+      "accentColor": "#FC8337",
+      "logoUrl": null,
+      "config": {
+        "keywords": {
+          "tone": [
+            "futuristic",
+            "space",
+            "modern"
+          ],
+          "color": [
+            "orange",
+            "black",
+            "red",
+            "dark"
+          ]
+        },
+        "cardColor": {
+          "type": "solid",
+          "color": "#030303"
+        },
+        "roundness": "lg",
+        "shapeFill": "none",
+        "themeBase": "daydream",
+        "background": {
+          "type": "image",
+          "color": {
+            "hex": "#0c0c0c"
+          },
+          "image": {
+            "src": "https://images.unsplash.com/photo-1569470451072-68314f596aec?ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHwxMXx8Z3JhZGllbnQlMjBibGFja3xlbnwxfHx8fDE2ODE4NTM1MTQ&ixlib=rb-4.0.3&w=3000&q=25",
+            "meta": {
+              "width": 3000,
+              "height": 1688,
+              "description": null,
+              "average_color": "#030303",
+              "alt_description": null
+            },
+            "query": "gradient black",
+            "tempUrl": "https://images.unsplash.com/photo-1569470451072-68314f596aec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHwxMXx8Z3JhZGllbnQlMjBibGFja3xlbnwxfHx8fDE2ODE4NTM1MTQ&ixlib=rb-4.0.3&q=80&w=200"
+          },
+          "source": "image.unsplash"
+        },
+        "cardBorder": "md",
+        "cardShadow": "none",
+        "headingColor": "#FFFFFF",
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#000000"
+          }
+        },
+        "buttonRoundness": "lg",
+        "cardBorderColor": {
+          "type": "solid",
+          "color": "#4e4e4e"
+        },
+        "cardTransparency": "faded",
+        "shapeColorScheme": "custom",
+        "accentBackgrounds": []
+      },
+      "priority": 510,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/stardust/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "seafoam",
+      "name": "Seafoam",
+      "headingFont": "Unbounded",
+      "headingFontWeight": 700,
+      "bodyFont": "Open Sans",
+      "bodyFontWeight": 400,
+      "accentColor": "#26A688",
+      "logoUrl": null,
+      "config": {
+        "fontSize": 1,
+        "keywords": {
+          "tone": [
+            "Playful",
+            "friendly",
+            "casual",
+            "fun",
+            "clean",
+            "soft",
+            "bold",
+            "modern",
+            "young",
+            "fresh"
+          ],
+          "color": [
+            "light",
+            "teal",
+            "aqua",
+            "pastel",
+            "blue-green",
+            "white",
+            "colorful",
+            "cool"
+          ]
+        },
+        "bodyColor": "#333F70",
+        "themeBase": "default",
+        "background": {
+          "type": "color",
+          "color": {
+            "hex": "#D6F5EE"
+          },
+          "image": {
+            "src": "https://cdn.gamma.app/zc87vhr30n8uf3n/547efe8f3eae440c977d44f688467ec8/original/Blue-green.png",
+            "meta": {
+              "width": 1920,
+              "height": 1080,
+              "colorspace": "sRGB",
+              "frame_count": 1,
+              "aspect_ratio": 1.778,
+              "average_color": "#c3f1cd",
+              "has_transparency": false,
+              "has_clipping_path": false,
+              "date_file_modified": "2023/06/19 17:47:54 GMT"
+            },
+            "name": "Blue green.png",
+            "source": "image.custom",
+            "uploadStatus": 0,
+            "showPlaceholder": false,
+            "uploadResultStep": "optimized"
+          },
+          "source": "color.solid"
+        },
+        "stylePrompt": "Playful and friendly with bold, modern aesthetics in teal, aqua, and pastel blue-green colors. Vibrant yet soft and appealing to a young audience.",
+        "headingColor": "#333F70",
+        "accentGradient": {
+          "angle": 180,
+          "colors": [
+            "#26A688",
+            "#38512F"
+          ],
+          "disabled": true
+        },
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        },
+        "accentBackgrounds": [
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/821b94aee2c5488c937fd42af50713c4/original/Seafoam---1.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#86e1d0",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 1.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "WQeyzu_gorhbEF8-mHPzg",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/6cc318ef66d147ac8f91aa5ac00e3932/original/Seafoam---2.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#94d9cd",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 2.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "PhN4LCepx6KddjXUP8nSm",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/3540c68d911b46248c8969c7161d7a6a/original/Seafoam---3.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#abe0dd",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 3.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "YJXHLMKWsaYfpNU6cuX4g",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/0013f92fef9c4c08b54da7ccaacfa667/original/Seafoam---4.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#93dace",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 4.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "rM3YTSEtzpwaMMURm1E2X",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/78e86d31b6b54f8dba2cf5e722bc7c3a/original/Seafoam---5.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#a8dfd9",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 5.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "nx2fU4JZ57ASbxruEmj3h",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/732b9efc661343edad84db3adb0d75f0/original/Seafoam---6.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#96d3c8",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 6.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "iwNEcir9fAOFQ1sI9L4Q0",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/140339e2c7f3442ea10cab23255c594f/original/Seafoam---7.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#9fe0d9",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 7.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "F6hGqX5mWpR8vt3o8LtrW",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/e44e800f21a24975a586afb02dd7b4b4/original/Seafoam---8.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#98dbd6",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 8.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "k9Tj7s-EBRA0PDJdAOVhO",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/b063edac3ead47088c194bdfc43a1cfc/original/Seafoam---9.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#a4ddcd",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 9.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "huO0PCz-T_ND9atc70aZe",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/a2f7a1b4a6e540d9be1dcb1657f9e8e9/original/Seafoam---10.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#91d7cd",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 10.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "CzqJDXw5njyrjYdOBV8lR",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/42a91ef461a54c609da077cc51378fad/original/Seafoam---11.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#aadbcf",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 11.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "xfo6vJJwIctqOlz789IGE",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/9ee4241a07ac4fc0bccb3494c32d2991/original/Seafoam---12.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#92d7cc",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 12.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "EfrpLH7BmhazKzRFsj3Zb",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/5a0aa2cb9e0943b1a926b75bbe1c7d25/original/Seafoam---13.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#91e1d6",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 13.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "bY_Z5xTqASd8yg3VhyQqs",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/0220e6f7d496421f9c5ba1e37cd677bb/original/Seafoam---14.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#86d4c6",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 14.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "MoYTB8XKiIExr0iiHCUUB",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/2b3644df2890413e87497b8503a64bee/original/Seafoam---15.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#94dbce",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 15.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "QYmHhf6jDsXf5cLaZDK0F",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/9ca3c815e4ab481793df9ca04f77b404/original/Seafoam---16.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#96d6c9",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 16.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "aNm6_rif1j75eQsgXDyGl",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/77aaa23443854d5a80bc6dbd92e2afd0/original/Seafoam---17.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#a5dccb",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 17.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "j_VutlyfRUn2vWU9TIXTo",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/0d2240f31e744c66bd3556555e0c0333/original/Seafoam---18.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#89d9cb",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 18.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "1STgnU8mqd0ozWv-cDqOO",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/b86c81fc17e64cdea9fbed7e1a582c9d/original/Seafoam---19.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#92ddcd",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 19.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "aHTWj9l-dczJx8pM9oYHD",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/122c093d48894bfd85a331e3c0dc890e/original/Seafoam---20.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#a4d6cb",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 20.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "eC4AKS83VuD2HOHbrTtzV",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/4c31ee83cf524f229fd4bc1424a55f77/original/Seafoam---21.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#9dd9d2",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 21.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "NTocbA2Pkyt8xg92zomWq",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/9d069ff0cdb8489f9a3d0c45bdad4515/original/Seafoam---22.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#9ddcd2",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 22.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "rtDWXPRMixo__sFn8IuhS",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/29e70605222a40ca922b31bfcf302aec/original/Seafoam---23.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#a1ded3",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 23.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "bJZiy_K0Yg0p2OSHVzFau",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/b9ab3703e6a7496997e9ae1b050217a7/original/Seafoam---24.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#92dbcc",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:26 GMT"
+              },
+              "name": "Seafoam - 24.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "JKsRZRllt551R3g9kWGce",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/c1b5858f685f4ca28391a7acf785b96a/original/Seafoam---25.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#97d5ce",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 25.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "y1GBbGo4V1SR2IybJyaPI",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/566909bd9b2e4a1eb865fef8d046202a/original/Seafoam---26.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#81e5d1",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 26.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "uJ9b3YApsbQWnQYlpdmCV",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/751d09df3b604bb998402a9d8d4315b6/original/Seafoam---27.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#98d6c8",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 27.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "cSCqGov20lFJsh40utwFc",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/ae0228a8194649cca77e908ab4652708/original/Seafoam---28.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#87d5c7",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 28.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "xSQVUPmDOTA7xDCaRPrXA",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/9fe98969b4224d898a1241c77011626a/original/Seafoam---29.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#a4d8ce",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 29.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "_yfZOUKptIQSV9EAPkMFZ",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/c04e4405d45741c991a8fee2048b8f3d/original/Seafoam---30.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#9cd7cf",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 30.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "UBiufjGUykWWAYdkBKTtu",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/b41563c1a1a9415b8f3deaf12d7e3c83/original/Seafoam---31.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#9fd9ce",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 31.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "2LylTxpsI8B8TyL0FF4Es",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/da3d19aec50d4e7ba40f667951cdef6d/original/Seafoam---32.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#9ad6cc",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 32.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "_epFEYzJN9LHo9BknQKSu",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/6e19ec6c27e24591855a9010355be03c/original/Seafoam---33.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#95dcd2",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 33.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "DmSAy8k-xqDvZ7jbu7Smz",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/1b0cb73e91174c90a583c72210013ec9/original/Seafoam---34.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#8de0d2",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:27 GMT"
+              },
+              "name": "Seafoam - 34.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "W2ci1kN9CAEUqKbGasyTh",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/a12291c498d044dfa4ebed7a8d843e25/original/Seafoam---35.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#a1e0d0",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 35.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "zlekXAYO6SuFjElF68lVf",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/1c3ec8ab96d24ce2a57b45f248a76473/original/Seafoam---36.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#97d8cc",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:26 GMT"
+              },
+              "name": "Seafoam - 36.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "KiluWfX5c1xYQtFjVeD-u",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/62a7913a4d204b6eb021d81e21dab4b9/original/Seafoam---37.jpg",
+              "meta": {
+                "width": 2048,
+                "height": 2048,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#99d9cd",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/12 22:05:23 GMT"
+              },
+              "name": "Seafoam - 37.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "rGg8C50T1GINZ4AIBezN-",
+            "originalSource": "image.custom"
+          }
+        ],
+        "secondaryAccentColors": [
+          "#DDF8F2",
+          "#B4EEE0",
+          "#192248"
+        ],
+        "disableReadabilityAdjustment": false
+      },
+      "priority": 500,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/seafoam/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "nebulae",
+      "name": "Nebulae",
+      "headingFont": "Sora",
+      "headingFontWeight": 500,
+      "bodyFont": "Noto Sans TC",
+      "bodyFontWeight": 400,
+      "accentColor": "#B380FF",
+      "logoUrl": null,
+      "config": {
+        "keywords": {
+          "tone": [
+            "Friendly",
+            "playful",
+            "bold",
+            "loud",
+            "modern",
+            "high tech",
+            "futuristic",
+            "fresh",
+            "creative"
+          ],
+          "color": [
+            "dark",
+            "black",
+            "gradient",
+            "blue",
+            "purple",
+            "navy blue",
+            "royal blue",
+            "aurora borealis",
+            "vibrant",
+            "colorful",
+            "contrast"
+          ]
+        },
+        "bodyColor": "#E0D6DE",
+        "themeBase": "finesse",
+        "background": {
+          "type": "image",
+          "color": {
+            "hex": "#13131A"
+          },
+          "image": {
+            "src": "https://cdn.gamma.app/zc87vhr30n8uf3n/850811559c97448ea65b44195bbd69b2/original/blue-purpos.png",
+            "meta": {
+              "width": 2225,
+              "height": 1582,
+              "colorspace": "sRGB",
+              "frame_count": 1,
+              "aspect_ratio": 1.406,
+              "average_color": "#1c1037",
+              "has_transparency": false,
+              "date_file_created": "2023/11/21 19:02:41 GMT",
+              "has_clipping_path": false,
+              "date_file_modified": "2023/11/21 19:08:18 GMT"
+            },
+            "name": "blue purpos.png",
+            "source": "image.custom",
+            "uploadStatus": 0,
+            "showPlaceholder": false,
+            "uploadResultStep": "optimized"
+          },
+          "source": "image.custom",
+          "gradient": {
+            "css": {
+              "backgroundImage": "radial-gradient(circle at 0% 0%, #0b28ff80 0, #0b28ff00 50%),radial-gradient(circle at 14.72257432152649% 47.08386148228974%, #7182ff80 0, #7182ff00 82.36128716076325%),radial-gradient(circle at 29.44514864305298% 44.16772296457948%, #d7dcff80 0, #d7dcff00 64.7225743215265%),linear-gradient(0deg, #0b28ff80 0%, #0b28ff80 100%)"
+            },
+            "vibe": "mono",
+            "primaryColor": "#0b28ff"
+          }
+        },
+        "stylePrompt": "Playful and creative, bold and loud with a futuristic touch, using a gradient of vibrant colors including blue, purple, and royal blue.",
+        "headingColor": "#B380FF",
+        "accentGradient": {
+          "angle": 143,
+          "colors": [
+            "#B380FF",
+            "#7AF0FF"
+          ]
+        },
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#07070C"
+          }
+        },
+        "headingGradient": {
+          "angle": 134,
+          "colors": [
+            "#B380FF",
+            "#7AF0FF"
+          ]
+        },
+        "accentBackgrounds": [
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/c0dbb39db54d4a79af0e0ce2d696437d/original/Nebula---1.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#0f244b",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:40 GMT"
+              },
+              "name": "Nebula - 1.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "UXZVpOgWEBbX-R92EOVO-",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/58fd550fb92d4c02aa8b5511ba2965fd/original/Nebula---2.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#0e1837",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 2.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "fVxeeA93uCDjc3ELmq8Bu",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/bbb5c4dbc42e4a769cb048aefc4ffa5a/original/Nebula---3.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#112a50",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:29 GMT"
+              },
+              "name": "Nebula - 3.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "FYUsQdQjJPturunjrk2_I",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/05abaea6247c4c7a9d261f2a1cff2ede/original/Nebula---4.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1e355a",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:29 GMT"
+              },
+              "name": "Nebula - 4.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "tJNVqIrBrHHneBNsw3x02",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/86f95abc0c1d4fe5b6c1f21689f8d2c3/original/Nebula---5.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#132040",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:35 GMT"
+              },
+              "name": "Nebula - 5.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "P5zkD6h8iFnMvcthRgroE",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/4c13fed8fb964e749991d3b7b60a2c41/original/Nebula---6.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#20456e",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 6.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "AHigt5zGuTlxFc4GPiLOb",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/51d3cc3eaf684315b698b59081333753/original/Nebula---7.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#111b41",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:40 GMT"
+              },
+              "name": "Nebula - 7.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "2x8YOoBXohLusCTPM04UZ",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/55435009d7da4593a2697a9959f3a169/original/Nebula---8.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#162c57",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 8.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "yfkWjVcwl8akiQzrSA-_Z",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/43e0a0cd08b74abcafc38d9611749bc9/original/Nebula---9.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#141f44",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 9.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "KilI4KrDmfW0pVV4aVh8b",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/642f801523be4d4188951087f9cca871/original/Nebula---10.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1e3a68",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 10.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "QBzm7f5U98a87POL6SnxB",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/abc379effe434d4b9210491008128705/original/Nebula---11.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#122758",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:29 GMT"
+              },
+              "name": "Nebula - 11.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "axsHn1poagcSsx_YRBd27",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/2723e3696d304664879ace9b72b2a122/original/Nebula---12.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1b2853",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 12.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "brZxicZxg4mI3EyvyciiE",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/03f5a4373df2455ca35fdc6f1791aa34/original/Nebula---13.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#131c3e",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 13.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "uokYKPn76-JTLdetd5aGK",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/9dad00691e1e4b2ca34962349230ae84/original/Nebula---14.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#29446d",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:40 GMT"
+              },
+              "name": "Nebula - 14.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "ojeMn3P5lwpUfOwdCl2bL",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/c9653989d53e488693d4732fe2156b05/original/Nebula---15.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#16345f",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 15.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "UV2QYwBXs-jsUc8xMQkgt",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/c59329275327474c9cdb2d5a89dd9d29/original/Nebula---16.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1a294d",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:40 GMT"
+              },
+              "name": "Nebula - 16.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "pj-gnHQQXdrOm9Tft5ScN",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/23b56059c4294510ba7e0aa3c89d0ed5/original/Nebula---17.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#21325f",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:40 GMT"
+              },
+              "name": "Nebula - 17.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "s0pg5cm-ZfFhjdMencP6U",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/f18370d0ff934e75add7f40219c114b9/original/Nebula---18.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1b2b50",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:29 GMT"
+              },
+              "name": "Nebula - 18.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "d29ZFf4oGL29qm69bCrAd",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/d84133254bbf4e2ab17241295d40605e/original/Nebula---19.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#254670",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:29 GMT"
+              },
+              "name": "Nebula - 19.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "JwFhzcJcuBYrlnTrpshto",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/5b67fa177fd54644a138aba7360ca5ee/original/Nebula---20.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#415a7e",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 20.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "T8wX11_2EuhF4G8ZiG-8l",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/640dc5c905604b27812f7a43bc02fb8b/original/Nebula---21.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1d3453",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 21.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "5gXC0-fv3al2pcZ9i2p9e",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/846db52168864a9a83e380151d7029c0/original/Nebula---22.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#183661",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:31 GMT"
+              },
+              "name": "Nebula - 22.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "QNJOmchIqL3MBIhpoQCki",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/42dca47e894747b48687474bd560bd28/original/Nebula---23.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#152f51",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:40 GMT"
+              },
+              "name": "Nebula - 23.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "SiOqLAUctzUPRQ2DUXDhR",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/87a93ed267a74563b034f09f6d13e4ca/original/Nebula---24.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#0e2645",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 24.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "jrwreD50odeTPZVO1dugu",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/49f0466c2c4940a78e03894d4d508e15/original/Nebula---25.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#19264e",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 25.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "6b7-0J2bGcvLUHVSMhM3p",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/547b2525f5ac4afc89dd655d1b81c62e/original/Nebula---26.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1a2346",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:31 GMT"
+              },
+              "name": "Nebula - 26.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "f9izZUJPGUXTr-zo--jky",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/ef737244566942b8ae7d9143c8b9cc56/original/Nebula---27.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#0f1a2b",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:39 GMT"
+              },
+              "name": "Nebula - 27.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "gf5IHoqj1lZh0-KI5TEWI",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/2aae852ccd9d440f9bcc4721bd510f34/original/Nebula---28.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#161a2d",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:43 GMT"
+              },
+              "name": "Nebula - 28.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "yQgxEiQ1Rf3O8Cflhc4Ua",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/b3813bb718164b35b8faee1b1a8adf02/original/Nebula---29.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#151d2e",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:39 GMT"
+              },
+              "name": "Nebula - 29.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "hY2RM1rw-r-FmgYeDoYys",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/a93bfe38866b4c33b108ea9a44f8721f/original/Nebula---30.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#15192b",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 30.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "XFTTwHG5h8ruujmPcO4cL",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/33ac37b54863416791edd77bdd815d2c/original/Nebula---31.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#181d37",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:40 GMT"
+              },
+              "name": "Nebula - 31.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "dvOqqk7iZ6HapX9fD9QQN",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/77846ce4cc6442869cf24b6611b091b1/original/Nebula---32.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#171e36",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:43 GMT"
+              },
+              "name": "Nebula - 32.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "jEFcVG72kxxj5ssw5Ix8D",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/34268715ba5d4d74b78ec6106f6839c5/original/Nebula---33.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#181e2f",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:39 GMT"
+              },
+              "name": "Nebula - 33.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "dUR22tKS9Va9nr6H5Uj6E",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/4fe8012a8ae54003b2c6dd2a7c7cff4d/original/Nebula---34.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#182a42",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:38 GMT"
+              },
+              "name": "Nebula - 34.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "gAo0N9dso_dGxED1qWmQ7",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/25478247b4514df78befa39f80de52d9/original/Nebula---35.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#182236",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:43 GMT"
+              },
+              "name": "Nebula - 35.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "_cZbvvm0KDmzUR7fnsWuu",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/215c3ad2370c4b5fb9fd954bf11c5f3f/original/Nebula---36.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1a1d34",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:43 GMT"
+              },
+              "name": "Nebula - 36.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "xJbeo46YXk_k7dV4XOtxO",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/8d0033aa675b4a7589dc38f6d3c44e51/original/Nebula---37.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#1d2140",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:41 GMT"
+              },
+              "name": "Nebula - 37.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "BJ8EL6wYYIlOhJS5MOQak",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/e33ed9415a434a149d8d140a0546a72c/original/Nebula---38.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "RGB",
+                "frame_count": 1,
+                "orientation": "Horizontal (normal)",
+                "aspect_ratio": 1,
+                "average_color": "#161d3d",
+                "device_software": "Adobe Photoshop 25.3 (Macintosh)",
+                "has_transparency": false,
+                "date_file_created": "2024/01/10 02:44:46 GMT",
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:39 GMT"
+              },
+              "name": "Nebula - 38.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "EXyytM3kvxw0uWE-eBRpj",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/b046532a120547c9b1ff786050d84924/original/Nebula---39.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#26405f",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:43 GMT"
+              },
+              "name": "Nebula - 39.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "InVWmwQNRCjLZrNQ15Qst",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/aa182d162e8a4233839a6882b63fb799/original/Nebula---40.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#15203e",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:43 GMT"
+              },
+              "name": "Nebula - 40.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "ae6NSva1-nrV-_uBFx4LT",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/7395c9174129437ba0b1615b251a40bd/original/Nebula---41.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#0c192e",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/03/14 23:43:41 GMT"
+              },
+              "name": "Nebula - 41.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "4rZgwh-rqpkfOOHMy1lSL",
+            "originalSource": "image.custom"
+          }
+        ],
+        "secondaryAccentColors": [
+          "#7AF0FF",
+          "#120336",
+          "#0D0326"
+        ],
+        "disableReadabilityAdjustment": false
+      },
+      "priority": 490,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/nebulae/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "creme",
+      "name": "Creme",
+      "headingFont": "Gelasio",
+      "headingFontWeight": 600,
+      "bodyFont": "Gelasio",
+      "bodyFontWeight": 400,
+      "accentColor": "#D3C5B6",
+      "logoUrl": null,
+      "config": {
+        "keywords": {
+          "tone": [
+            "feminine",
+            "serious",
+            "classy",
+            "corporate",
+            "formal",
+            "elegant",
+            "professional",
+            "simple",
+            "minimalist",
+            "clean",
+            "subtle",
+            "quiet",
+            "soft",
+            "luxury",
+            "deluxe",
+            "expensive",
+            "modern",
+            "classic",
+            "traditional",
+            "mature",
+            "aesthetic",
+            "organic"
+          ],
+          "color": [
+            "cream",
+            "creme",
+            "beige",
+            "earthy",
+            "neutral",
+            "warm",
+            "light",
+            "tan",
+            "sand",
+            "camel",
+            "brown",
+            "ecru",
+            "light beige"
+          ]
+        },
+        "bodyColor": "#B2A599",
+        "themeBase": "icebreaker",
+        "background": {
+          "type": "color",
+          "color": {
+            "hex": "#DDCFBB"
+          },
+          "source": "color.solid"
+        },
+        "stylePrompt": "Elegant with a classic and professional look. Subtle and minimalist using a warm palette of cream, beige, and light beige colors.",
+        "headingColor": "#484237",
+        "accentGradient": {
+          "angle": 229,
+          "colors": [
+            "#D3C5B6",
+            "#1C3F99"
+          ],
+          "disabled": true
+        },
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#F9F6F0"
+          }
+        },
+        "headingGradient": {
+          "angle": 239,
+          "colors": [
+            "#484237",
+            "#B69168"
+          ],
+          "disabled": true
+        },
+        "accentBackgrounds": [
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/b0fd1a09fcff440f9cc9cb47b5aa5f6c/original/Creme---1.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cbb9a7",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:10 GMT"
+              },
+              "name": "Creme - 1.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "pmwExDP-IovE8xR3VIfoy",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/bd02fb7e856040a0b80f96786a4ce53b/original/Creme---2.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cfc0af",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:05 GMT"
+              },
+              "name": "Creme - 2.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "5PJ1wtAkliF6FP4Y0G0lv",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/4556408b566744dc9e153f81e5e0a8e1/original/Creme---3.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#c7b6a5",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:05 GMT"
+              },
+              "name": "Creme - 3.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "H_UEbbsFHLXJgna6iPGSR",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/b1559cfd6a5f49e9b8ef5c80db471742/original/Creme---4.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#d4c3b1",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:08 GMT"
+              },
+              "name": "Creme - 4.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "ea-SSndYFIOpegA9uVn1A",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/66858a9fbf9348808b6fa382734387e4/original/Creme---5.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#ccbba8",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:10 GMT"
+              },
+              "name": "Creme - 5.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "PweBX7K0762atOhLH9s_E",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/7d7c405774014dbdbd7a07dab9ae5d7e/original/Creme---6.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cbbaa3",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:08 GMT"
+              },
+              "name": "Creme - 6.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "v5LFSCwV5j3bHu_kIbYSk",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/c5a9e4dc53d84a0c9800ae58ee9b6538/original/Creme---7.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cebdac",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:08 GMT"
+              },
+              "name": "Creme - 7.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "XU9ZXPnrDkrU3ivm-c8cE",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/e1ac4c678d7440abb4c465e883d05f49/original/Creme---8.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cdbca7",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:08 GMT"
+              },
+              "name": "Creme - 8.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "e8a1gxAsvt_-lxERgp9BU",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/e9c51754adc746c8a5afc2a579c34944/original/Creme---9.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cfbca9",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:10 GMT"
+              },
+              "name": "Creme - 9.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "j13OswRKQw8H7lPpvqHjN",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/04f6111e734b49059aada05e999a06b4/original/Creme---10.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cebdab",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:08 GMT"
+              },
+              "name": "Creme - 10.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "veauLC4U6DBsKobPkzp97",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/93d2ec0fa45a4b518a07c3ee01886041/original/Creme---11.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#c6b5a4",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:05 GMT"
+              },
+              "name": "Creme - 11.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "G_L0eNNCMLT5XurAH3W2E",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/e42b809b8a6a429a996b2a1c6bb6d05a/original/Creme---12.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cdbcaa",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:10 GMT"
+              },
+              "name": "Creme - 12.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "71FHMWUeY273yLrUO0tM5",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/3289f74467044ee6a691d4118c05f6da/original/Creme---13.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#cfbca9",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:08 GMT"
+              },
+              "name": "Creme - 13.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "77JW__oBTfmsDBYOlcTJq",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/eeccbaa0d2cd4ae39c59380a68dd8dad/original/Creme---14.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#d2bfaa",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:05 GMT"
+              },
+              "name": "Creme - 14.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "zg5o1X-yjdJmMCR8lO4HY",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/86d8f0d9c73842dc9f5a916545c535c7/original/Creme---15.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#d8c8b4",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:14:08 GMT"
+              },
+              "name": "Creme - 15.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "utLao5RmQ4A78kU33jAzx",
+            "originalSource": "image.custom"
+          }
+        ],
+        "secondaryAccentColors": [
+          "#F2EBDF",
+          "#DECEBB"
+        ]
+      },
+      "priority": 488,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/creme/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "lux",
+      "name": "Lux",
+      "headingFont": "Quattrocento",
+      "headingFontWeight": 400,
+      "bodyFont": "Quattrocento",
+      "bodyFontWeight": 400,
+      "accentColor": "#EF9C82",
+      "logoUrl": null,
+      "config": {
+        "fontSize": 1.0625,
+        "keywords": {
+          "tone": [
+            "feminine",
+            "serious",
+            "classy",
+            "corporate",
+            "formal",
+            "elegant",
+            "professional",
+            "friendly",
+            "simple",
+            "minimalist",
+            "clean",
+            "luxury",
+            "deluxe",
+            "expensive",
+            "modern",
+            "traditional",
+            "mature"
+          ],
+          "color": [
+            "Green",
+            "dark green",
+            "forest green",
+            "deep green",
+            "salmon",
+            "peach",
+            "dark",
+            "colorful"
+          ]
+        },
+        "bodyColor": "#F9EEE7",
+        "themeBase": "finesse",
+        "background": {
+          "type": "color",
+          "color": {
+            "hex": "#1C4241"
+          },
+          "source": "color.solid"
+        },
+        "stylePrompt": "Luxurious and professional that blends modern and traditional themes, using colors like forest green, deep green, and peach.",
+        "headingColor": "#FFD9BE",
+        "accentGradient": {
+          "angle": 180,
+          "colors": [
+            "#EF9C82",
+            "#38512F"
+          ],
+          "disabled": true
+        },
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#123332"
+          }
+        },
+        "accentBackgrounds": [
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/903456cb478f49c48879f63f559a8759/original/Lux---1.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#3d5c57",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:20 GMT"
+              },
+              "name": "Lux - 1.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "UHFMuQC3B5UYok6hosH2L",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/f55a41dab61b4a159fb0895dd0bf3491/original/Lux---2.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#304b47",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:14 GMT"
+              },
+              "name": "Lux - 2.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "uhwUvQ451mBnoc63viirG",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/8b50b5793a014f9a8cd44cf2ea2df42f/original/Lux---3.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#516967",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:10 GMT"
+              },
+              "name": "Lux - 3.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "XDmoUYBOk9gydvDAT7pdb",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/f7f59c56486144f2a32c3ac92d70d9f1/original/Lux---4.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#365550",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 4.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "XgYONckB_QycEv5zFVVf8",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/363ae0bd9f604c94ab7f98f75e2b3940/original/Lux---5.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#425a54",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:20 GMT"
+              },
+              "name": "Lux - 5.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "y-eFtYL3uQ5BZT3li9oaH",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/65c579dd1e9e47b69f6b1027ee458378/original/Lux---6.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#2b4844",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:20 GMT"
+              },
+              "name": "Lux - 6.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "cqRGPo_Q4sEPNu46IQUVi",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/ca5fe3b17dfd49fd837a471423e0b0e8/original/Lux---7.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#2f4e4b",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:14 GMT"
+              },
+              "name": "Lux - 7.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "B3hZrPNc8M5IsPODDKP4T",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/359b1c3c70864a13b19de00538ec96d9/original/Lux---8.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#334c49",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:14 GMT"
+              },
+              "name": "Lux - 8.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "YwU8K8LUfAQ9rElUtO8B9",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/8157bac452cd4f03bd92a7fb03d0ba49/original/Lux---9.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#375653",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:13 GMT"
+              },
+              "name": "Lux - 9.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "FSdUl2kvemuoNhU1UOk2a",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/a58267ef45b44c7d9b9765232b193e43/original/Lux---10.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#284945",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:10 GMT"
+              },
+              "name": "Lux - 10.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "wCXuez5NyPWYWXcvWJG3E",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/0dcbed67f51f4978b6762374e1769765/original/Lux---11.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#3c5853",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:14 GMT"
+              },
+              "name": "Lux - 11.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "y7p3zWT3HJN_8TxECHgGX",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/9ac4bc3cf3e54f948a0c659c43b7b4ef/original/Lux---12.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#3b5d56",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 12.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "9yuevZgZ-ZCCDlAYdJenI",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/097953f722554062b7b950d91147f432/original/Lux---13.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#345651",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 13.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "Hz5WtayQ28aLoEtFHAVb6",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/0136190d678249b996b6d668df3ec84a/original/Lux---14.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#2d4742",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:14 GMT"
+              },
+              "name": "Lux - 14.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "qZvMI7s11VAK6nvAyinVz",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/886b038ae0dc450faa9e06e67257fe95/original/Lux---15.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#2b4a46",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:20 GMT"
+              },
+              "name": "Lux - 15.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "JwOM81E9mnfqHGOQoT4go",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/15b9bc49ad0f409db7627e011c38c111/original/Lux---16.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#2b4a49",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 16.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "lxiwdza3m-xr2hGLL0PwZ",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/08d74f66d6d840a193d9343dffd1d6b8/original/Lux---17.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#2e4b46",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 17.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "9YJlUz1uluYTXHTpYddvk",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/9b73e0c48e3444b5a12a735fc5126b0d/original/Lux---18.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#4f6a67",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:10 GMT"
+              },
+              "name": "Lux - 18.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "UgXDkGw_f4_CfdU8k8qgf",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/22aaa93fd2634b0ea36c3ae2fea3803b/original/Lux---19.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#20413e",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:13 GMT"
+              },
+              "name": "Lux - 19.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "2JYsJmi-CpBVsOPEyXYi9",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/7b7fa655665440938f822504cec8b8c4/original/Lux---20.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#5e6b60",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:20 GMT"
+              },
+              "name": "Lux - 20.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "TBIREACcfeRBq9GdkdM2i",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/8447144bb0bf4448bbcdc5b2cfcc42af/original/Lux---21.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#627166",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:16 GMT"
+              },
+              "name": "Lux - 21.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "5O4vLq2am0QesFJM0tK6b",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/81cb63ba615546a988a270156b9dd3e4/original/Lux---22.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#657166",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 22.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "uvgpY4plMqpWZl8hZyOIB",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/f44fc3e7cb0f41bc98754ceb12b1be85/original/Lux---23.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#606b60",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:17 GMT"
+              },
+              "name": "Lux - 23.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "HeU2TmlLuln5sr25-V7d_",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/e8fc77b7feb044ed8ba0f4cad9fc0a67/original/Lux---24.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#6f776c",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 24.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "a3cdPmBsC5MtL1cTm5Qhg",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/e3b83bd97fbb44869711a2da889c9bfa/original/Lux---25.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#606d63",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:16 GMT"
+              },
+              "name": "Lux - 25.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "i3yHAfxO5ccIK6iSq1_xJ",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/ccc3e31e592749b0a80c07d23fe53e60/original/Lux---26.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#5b685d",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 26.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "seMIJGYsU--SWbNhGKf36",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/012343a6c8c943d4b5cf9c42702ba6f0/original/Lux---27.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#7e8376",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:17 GMT"
+              },
+              "name": "Lux - 27.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "ktDn-ouiNYbIaWym7f4YK",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/fae788cd7afe430bb71cba7fd2ce4f6d/original/Lux---28.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#526258",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 28.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "Qcvx5CS2l9-hlYAhmp8Eg",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/1c6eacb070444b819424e1774788e61e/original/Lux---29.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#6d7166",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:16 GMT"
+              },
+              "name": "Lux - 29.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "fyOLcC8a9RGB93V3cFzHy",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/8320cdbb761b4aad90bfc2522736f9fc/original/Lux---30.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#5d685f",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 30.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "nNuI2CxW37Q00YF2RdJEj",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/f543f15c122442a8a276aeeaed962a07/original/Lux---31.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#646e63",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:20 GMT"
+              },
+              "name": "Lux - 31.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "tG9Rw4sg6doWISCfkaWCK",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/37c0668df9974f14a468d50ac9c5c6a0/original/Lux---32.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#697165",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:23 GMT"
+              },
+              "name": "Lux - 32.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "ucYXYfZMCFuWswmgLzzYZ",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/2e235c6896144310a18a94b2d61c253b/original/Lux---33.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#657266",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:19 GMT"
+              },
+              "name": "Lux - 33.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "O1wNzwZVKCjsirG2dmiLd",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/standard/428bf3e94a8c413bb2d72d9db88a9b97/original/Lux---34.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096,
+                "colorspace": "sRGB",
+                "frame_count": 1,
+                "aspect_ratio": 1,
+                "average_color": "#6f786d",
+                "has_transparency": false,
+                "has_clipping_path": false,
+                "date_file_modified": "2024/01/26 23:12:20 GMT"
+              },
+              "name": "Lux - 34.jpg",
+              "uploadStatus": 0,
+              "showPlaceholder": false,
+              "uploadResultStep": "optimized"
+            },
+            "source": "accent.theme",
+            "accentId": "TVki4Dv0qUWtnEdpPL0Ys",
+            "originalSource": "image.custom"
+          }
+        ],
+        "secondaryAccentColors": [
+          "#1D4241"
+        ]
+      },
+      "priority": 485,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/lux/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "marine",
+      "name": "Marine",
+      "headingFont": "Fraunces",
+      "headingFontWeight": 500,
+      "bodyFont": "Epilogue",
+      "bodyFontWeight": 400,
+      "accentColor": "#8C98CA",
+      "logoUrl": null,
+      "config": {
+        "keywords": {
+          "tone": [
+            "professional",
+            "bold",
+            "loud",
+            "classic",
+            "fresh",
+            "inspirational",
+            "organic",
+            "friendly",
+            "bold"
+          ],
+          "color": [
+            "dark",
+            "blue",
+            "navy",
+            "white",
+            "cool",
+            "royal blue",
+            "dark blue"
+          ]
+        },
+        "bodyColor": "#EBECEF",
+        "background": {
+          "type": "color",
+          "color": {
+            "hex": "#A8AFCC"
+          },
+          "source": "color.solid"
+        },
+        "stylePrompt": "Bold and inspirational with a professional and organic style, using shades of navy, royal blue, and cool whites for a classic, powerful look.",
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#080E26"
+          }
+        },
+        "accentBackgrounds": [
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-01_4e09ec6d.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-01_4e09ec6d.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "4e09ec6d",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-02_ac74b39b.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-02_ac74b39b.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "ac74b39b",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-03_e747ffd4.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-03_e747ffd4.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "e747ffd4",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-04_ca90e3c5.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-04_ca90e3c5.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "ca90e3c5",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-05_0a49e7ff.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-05_0a49e7ff.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "0a49e7ff",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-06_25ba7eb3.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-06_25ba7eb3.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "25ba7eb3",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-07_cc7924ba.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-07_cc7924ba.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "cc7924ba",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-08_4355b920.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-08_4355b920.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "4355b920",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-10_773dee77.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-10_773dee77.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "773dee77",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-11_c2e409d5.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-11_c2e409d5.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "c2e409d5",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-12_5a19eb25.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-12_5a19eb25.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "5a19eb25",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-13_38f3aa72.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-13_38f3aa72.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "38f3aa72",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-14_da74b5ac.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-14_da74b5ac.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "da74b5ac",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-15_eb50d22b.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-15_eb50d22b.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "eb50d22b",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-16_d45f3a21.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-16_d45f3a21.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "d45f3a21",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-17_32f83843.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-17_32f83843.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "32f83843",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-18_d929005e.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-18_d929005e.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "d929005e",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-19_e475ecf6.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-19_e475ecf6.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "e475ecf6",
+            "originalSource": "image.custom"
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "https://cdn.gamma.app/theme_images/marine/marine-20_4f7e297d.jpg",
+              "meta": {
+                "width": 4096,
+                "height": 4096
+              },
+              "name": "marine-20_4f7e297d.jpg",
+              "source": "image.custom"
+            },
+            "source": "accent.theme",
+            "accentId": "4f7e297d",
+            "originalSource": "image.custom"
+          }
+        ]
+      },
+      "priority": 483,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/marine/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    },
+    {
+      "id": "consultant",
+      "name": "Consultant",
+      "headingFont": "Crimson Pro",
+      "headingFontWeight": 600,
+      "bodyFont": "Heebo",
+      "bodyFontWeight": 400,
+      "accentColor": "#2150FE",
+      "logoUrl": null,
+      "config": {
+        "keywords": {
+          "tone": [
+            "consulting",
+            "corporate",
+            "formal",
+            "business",
+            "professional",
+            "simple",
+            "modern",
+            "serious",
+            "serif"
+          ],
+          "color": [
+            "light",
+            "blue",
+            "white",
+            "cool"
+          ]
+        },
+        "bodyColor": "#4C4C4D",
+        "themeBase": "icebreaker",
+        "background": {
+          "type": "color",
+          "color": {
+            "hex": "#F0F0F1"
+          },
+          "source": "color.solid"
+        },
+        "stylePrompt": "Blues, grays, bright, professional, modern",
+        "headingColor": "#152D47",
+        "accentGradient": {
+          "colors": [
+            "#2150FE",
+            "#C84209"
+          ],
+          "disabled": true
+        },
+        "cardBackground": {
+          "type": "color",
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        },
+        "accentBackgrounds": [],
+        "secondaryAccentColors": [
+          "#04318F"
+        ],
+        "disableReadabilityAdjustment": false
+      },
+      "priority": 483,
+      "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/consultant/null",
+      "archived": false,
+      "createdAt": "2025-02-12T10:11:14.344Z",
+      "updatedAt": "2025-02-12T10:11:14.344Z"
+    }
+  ],
+  "meta": {
+    "page": "1",
+    "limit": "10",
+    "itemCount": 78,
+    "pageCount": 8,
+    "hasPreviousPage": false,
+    "hasNextPage": true
+  }
+}

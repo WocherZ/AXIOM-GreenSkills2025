@@ -1,0 +1,234 @@
+{
+  "data": {
+    "doc": {
+      "id": "pb5o5mjvmo1j40k",
+      "title": "Техническое устройство сервиса Gamma.app",
+      "titleEdited": false,
+      "titleCard": {
+        "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/pb5o5mjvmo1j40k/rf8sys2pqp0ygg4/slide/qUnZeV4NWrH7qvG-Rgqbkn5Uq8E",
+        "__typename": "Card"
+      },
+      "archived": false,
+      "disabled": false,
+      "createdTime": "2024-12-18T05:31:45.818Z",
+      "updatedTime": "2025-02-15T12:26:23.388Z",
+      "editedTime": "2025-02-15T12:26:13.214Z",
+      "savedTime": "2025-02-15T12:26:23.345Z",
+      "currentSnapshotId": "9zfqpcrnzall0ck",
+      "publishedSnapshotId": null,
+      "publishedSnapshot": null,
+      "publishedTime": null,
+      "comments": [],
+      "reactions": [],
+      "accessLinks": [
+        {
+          "id": "w7gyyjdf02tjq77",
+          "docId": "pb5o5mjvmo1j40k",
+          "type": "token",
+          "permission": "view",
+          "token": "",
+          "url": "https://gamma.app/docs/pb5o5mjvmo1j40k",
+          "__typename": "AccessLink"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://cdn.gamma.app/2uk1afdka0gtb8k/generated-images/5qL7m2ZuG80y58ejdqWdw.jpg",
+          "status": 1,
+          "__typename": "Link"
+        },
+        {
+          "url": "https://cdn.gamma.app/2uk1afdka0gtb8k/generated-images/vXe_ydp3nQdD8latiecNy.jpg",
+          "status": 1,
+          "__typename": "Link"
+        },
+        {
+          "url": "https://cdn.gamma.app/2uk1afdka0gtb8k/generated-images/8yF3te3yCXmgeAlSu5Ctq.jpg",
+          "status": 1,
+          "__typename": "Link"
+        },
+        {
+          "url": "https://cdn.gamma.app/2uk1afdka0gtb8k/generated-images/hejl6wck1FEMTb22DTGMP.jpg",
+          "status": 1,
+          "__typename": "Link"
+        },
+        {
+          "url": "https://cdn.gamma.app/_app_static/icons/v0/user.svg",
+          "status": 1,
+          "__typename": "Link"
+        },
+        {
+          "url": "https://cdn.gamma.app/_app_static/icons/v0/folder-grid.svg",
+          "status": 1,
+          "__typename": "Link"
+        },
+        {
+          "url": "https://cdn.gamma.app/_app_static/icons/v0/server.svg",
+          "status": 1,
+          "__typename": "Link"
+        },
+        {
+          "url": "https://cdn.gamma.app/_app_static/icons/v0/cloud.svg",
+          "status": 1,
+          "__typename": "Link"
+        }
+      ],
+      "orgAccess": null,
+      "organization": {
+        "id": "2uk1afdka0gtb8k",
+        "name": "Andrew Alexandroff's Workspace",
+        "products": [],
+        "__typename": "Organization"
+      },
+      "theme": {
+        "id": "dialogue",
+        "workspaceId": null,
+        "name": "Dialogue",
+        "headingFont": "PT Serif",
+        "headingFontWeight": 400,
+        "bodyFont": "DM Sans",
+        "bodyFontWeight": 400,
+        "accentColor": "#E04F00",
+        "logoUrl": null,
+        "config": {
+          "keywords": {
+            "tone": [
+              "bright",
+              "light",
+              "airy",
+              "modern",
+              "serif",
+              "writing",
+              "simple",
+              "white",
+              "professional"
+            ],
+            "color": [
+              "light",
+              "orange",
+              "white",
+              "warm"
+            ]
+          },
+          "bodyColor": "#383838",
+          "themeBase": "icebreaker",
+          "background": {
+            "type": "color",
+            "color": {
+              "hex": "#FAFAFA"
+            },
+            "source": "color.solid"
+          },
+          "stylePrompt": "orange colors, bright, whites, gray, professional",
+          "headingColor": "#020202",
+          "accentGradient": {
+            "angle": 90,
+            "colors": [
+              "#E04F00",
+              "#BDFFEE"
+            ],
+            "disabled": true
+          },
+          "cardBackground": {
+            "type": "color",
+            "color": {
+              "hex": "#FFFFFF"
+            }
+          },
+          "headingFontSize": 1.05,
+          "accentBackgrounds": [],
+          "secondaryAccentColors": [],
+          "disableReadabilityAdjustment": false
+        },
+        "priority": 457,
+        "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/dialogue/null",
+        "archived": false,
+        "createdTime": "2024-07-22T19:24:31.069Z",
+        "updatedTime": "2024-07-23T03:27:15.276Z",
+        "fonts": [
+          {
+            "id": "DM Sans",
+            "name": "DM Sans",
+            "url": "https://fonts.googleapis.com/css2?family=DM%20Sans:wght@100;200;300;400;500;600;700;800;900&display=swap",
+            "__typename": "ThemeFont"
+          },
+          {
+            "id": "PT Serif",
+            "name": "PT Serif",
+            "url": "https://fonts.googleapis.com/css2?family=PT%20Serif:wght@400;700&display=swap",
+            "__typename": "ThemeFont"
+          }
+        ],
+        "__typename": "Theme"
+      },
+      "collaborators": [
+        {
+          "docId": "pb5o5mjvmo1j40k",
+          "user": {
+            "id": "rpcrjdervobm6xk",
+            "displayName": "Andrew Alexandroff",
+            "email": "shurochkin@gmail.com",
+            "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+            "__typename": "User"
+          },
+          "permission": "manage",
+          "guest": false,
+          "accessLinkId": null,
+          "__typename": "DocCollaborator"
+        }
+      ],
+      "invitations": [],
+      "editors": [
+        {
+          "user": {
+            "id": "rpcrjdervobm6xk",
+            "displayName": "Andrew Alexandroff",
+            "email": "shurochkin@gmail.com",
+            "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+            "__typename": "User"
+          },
+          "lastEdited": "2025-02-15T12:26:13.214Z",
+          "__typename": "DocEditor"
+        }
+      ],
+      "createdBy": {
+        "displayName": "Andrew Alexandroff",
+        "id": "rpcrjdervobm6xk",
+        "email": "shurochkin@gmail.com",
+        "__typename": "User"
+      },
+      "channels": [],
+      "site": null,
+      "docGenerateInput": {
+        "id": "dylfzvqqh51oaun",
+        "settings": {
+          "tone": "",
+          "locale": "ru",
+          "themeId": "dialogue",
+          "audience": "",
+          "fontSize": "md",
+          "numCards": 8,
+          "textMode": "generate",
+          "editorMode": "structured",
+          "textAmount": "md",
+          "imageLicense": "All",
+          "imageProvider": "aiGenerated",
+          "styleTemplate": "deck_default",
+          "verticalAlign": "center",
+          "cardDimensions": "fluid",
+          "defaultFullBleed": "contained",
+          "scaleContentToFit": false,
+          "stylesDerivedFrom": "deck_default",
+          "defaultContentWidth": "lg"
+        },
+        "docGeneration": {
+          "id": "4tpfpkr0zccp131",
+          "generationType": "generate",
+          "__typename": "DocGeneration"
+        },
+        "__typename": "DocGenerateInput"
+      },
+      "__typename": "Doc"
+    }
+  }
+}

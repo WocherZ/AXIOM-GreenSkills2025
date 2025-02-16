@@ -1,0 +1,62 @@
+{
+  "id": "d5ce4cfa-c7b6-43f7-9c90-cbd5ccb32cc5",
+  "status": "draft",
+  "prompt": "Свойства пространства и времени",
+  "settings": {
+    "locale": "ru",
+    "textMode": "edit",
+    "editorMode": "structured",
+    "textAmount": "md",
+    "imageProvider": "aiGenerated",
+    "styleTemplate": "deck_default",
+    "verticalAlign": "center",
+    "cardDimensions": "fixed",
+    "defaultFullBleed": "contained",
+    "defaultContentWidth": "md"
+  },
+  "userId": "3a6f6cb8-b6b0-480f-898c-267b5267d225",
+  "createdBy": {
+    "id": "3a6f6cb8-b6b0-480f-898c-267b5267d225",
+    "firstName": "Andrew",
+    "lastName": "Alexandroff",
+    "email": "shurochkin@gmail.com",
+    "createdAt": "2025-02-12T10:25:34.630Z",
+    "updatedAt": "2025-02-13T10:39:08.117Z",
+    "profileImage": null,
+    "role": {
+      "id": "ffa9a338-c624-4f39-98b2-273e3d84d937",
+      "name": "Пользователь",
+      "slug": "user"
+    },
+    "workspace": {
+      "id": "4fa0a6e3-a9d4-42bb-b26a-b011259e2064",
+      "name": "Andrew Alexandroff Workspace",
+      "slug": "Andrew-Alexandroff-workspace-4fa0a6e3-a9d4-42bb-b26a-b011259e2064",
+      "inviteCode": "f8d05ea3ecf3cf5",
+      "workspaceMemberPermission": "view",
+      "accessLinkPermission": "view",
+      "ownerId": "3a6f6cb8-b6b0-480f-898c-267b5267d225",
+      "disabled": false,
+      "disabledReason": false,
+      "disabledComment": false,
+      "createdAt": "2025-02-12T10:25:34.645Z",
+      "updatedAt": "2025-02-12T10:25:34.645Z",
+      "workspaceMembers": [
+        {
+          "id": "13e20360-5a26-48d3-987c-c7a80e718ed4",
+          "userId": "3a6f6cb8-b6b0-480f-898c-267b5267d225",
+          "workspaceId": "4fa0a6e3-a9d4-42bb-b26a-b011259e2064",
+          "createdAt": "2025-02-12T10:25:34.645Z",
+          "updatedAt": "2025-02-12T10:25:34.645Z",
+          "role": {
+            "id": "122cefe3-895b-4f28-86e0-6641c7a5ef98",
+            "name": "Администратор",
+            "slug": "admin"
+          }
+        }
+      ]
+    }
+  },
+  "createdAt": "2025-02-13T10:40:02.310Z",
+  "updatedAt": "2025-02-13T10:40:02.310Z"
+}

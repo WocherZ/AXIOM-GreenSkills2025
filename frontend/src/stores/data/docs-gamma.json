@@ -1,0 +1,667 @@
+{
+  "data": {
+    "docs": {
+      "edges": [
+        {
+          "node": {
+            "id": "0ctn2edeyss8uj4",
+            "title": "Кодогенерация при разработке сложных информационных систем",
+            "archived": false,
+            "createdTime": "2024-12-18T17:58:02.960Z",
+            "updatedTime": "2025-02-07T21:17:59.653Z",
+            "editedTime": "2025-02-07T21:17:52.748Z",
+            "currentSnapshotId": "lby6z8orn2aec0n",
+            "titleCard": {
+              "id": "kzw37zpcyl624he",
+              "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/0ctn2edeyss8uj4/kzw37zpcyl624he/slide/2fhENx7Ye-JT69j2_0KM_VvcmqE",
+              "createdTime": "2024-12-18T17:58:09.118Z",
+              "updatedTime": "2025-01-09T22:44:11.866Z",
+              "__typename": "Card"
+            },
+            "createdBy": {
+              "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+              "displayName": "Andrew Alexandroff",
+              "id": "rpcrjdervobm6xk",
+              "email": "shurochkin@gmail.com",
+              "__typename": "User"
+            },
+            "collaborators": [
+              {
+                "docId": "0ctn2edeyss8uj4",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "__typename": "User"
+                },
+                "permission": "manage",
+                "__typename": "DocCollaborator"
+              }
+            ],
+            "docUser": {
+              "id": "6xdt0fa5xajak52",
+              "docId": "0ctn2edeyss8uj4",
+              "lastViewed": "2025-02-07T21:09:15.154Z",
+              "lastEdited": "2025-02-07T21:17:52.748Z",
+              "favorited": null,
+              "__typename": "DocUser"
+            },
+            "channels": [],
+            "organization": {
+              "id": "2uk1afdka0gtb8k",
+              "name": "Andrew Alexandroff's Workspace",
+              "__typename": "Organization"
+            },
+            "orgAccess": null,
+            "editors": [
+              {
+                "docId": "0ctn2edeyss8uj4",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "displayName": "Andrew Alexandroff",
+                  "email": "shurochkin@gmail.com",
+                  "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+                  "__typename": "User"
+                },
+                "lastEdited": "2025-02-07T21:17:52.748Z",
+                "__typename": "DocEditor"
+              }
+            ],
+            "accessLinks": [
+              {
+                "id": "ldqk0v8wx1qk75t",
+                "docId": "0ctn2edeyss8uj4",
+                "permission": "view",
+                "token": "",
+                "url": "https://gamma.app/docs/0ctn2edeyss8uj4",
+                "__typename": "AccessLink"
+              }
+            ],
+            "site": null,
+            "__typename": "Doc"
+          },
+          "__typename": "DocEdge"
+        },
+        {
+          "node": {
+            "id": "pb5o5mjvmo1j40k",
+            "title": "Техническое устройство сервиса Gamma.app",
+            "archived": false,
+            "createdTime": "2024-12-18T05:31:45.818Z",
+            "updatedTime": "2024-12-18T05:32:50.850Z",
+            "editedTime": "2024-12-18T05:32:50.687Z",
+            "currentSnapshotId": "zyhjl96e99hgq9t",
+            "titleCard": {
+              "id": "rf8sys2pqp0ygg4",
+              "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/pb5o5mjvmo1j40k/rf8sys2pqp0ygg4/slide/qUnZeV4NWrH7qvG-Rgqbkn5Uq8E",
+              "createdTime": "2024-12-18T05:31:53.478Z",
+              "updatedTime": "2024-12-18T05:32:38.758Z",
+              "__typename": "Card"
+            },
+            "createdBy": {
+              "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+              "displayName": "Andrew Alexandroff",
+              "id": "rpcrjdervobm6xk",
+              "email": "shurochkin@gmail.com",
+              "__typename": "User"
+            },
+            "collaborators": [
+              {
+                "docId": "pb5o5mjvmo1j40k",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "__typename": "User"
+                },
+                "permission": "manage",
+                "__typename": "DocCollaborator"
+              }
+            ],
+            "docUser": {
+              "id": "hncpm47waaehad0",
+              "docId": "pb5o5mjvmo1j40k",
+              "lastViewed": "2025-02-07T19:37:49.334Z",
+              "lastEdited": "2024-12-18T05:32:50.687Z",
+              "favorited": null,
+              "__typename": "DocUser"
+            },
+            "channels": [],
+            "organization": {
+              "id": "2uk1afdka0gtb8k",
+              "name": "Andrew Alexandroff's Workspace",
+              "__typename": "Organization"
+            },
+            "orgAccess": null,
+            "editors": [
+              {
+                "docId": "pb5o5mjvmo1j40k",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "displayName": "Andrew Alexandroff",
+                  "email": "shurochkin@gmail.com",
+                  "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+                  "__typename": "User"
+                },
+                "lastEdited": "2024-12-18T05:32:50.687Z",
+                "__typename": "DocEditor"
+              }
+            ],
+            "accessLinks": [
+              {
+                "id": "w7gyyjdf02tjq77",
+                "docId": "pb5o5mjvmo1j40k",
+                "permission": "view",
+                "token": "",
+                "url": "https://gamma.app/docs/pb5o5mjvmo1j40k",
+                "__typename": "AccessLink"
+              }
+            ],
+            "site": null,
+            "__typename": "Doc"
+          },
+          "__typename": "DocEdge"
+        },
+        {
+          "node": {
+            "id": "rxzlrom8rnnsjj4",
+            "title": "Планета Земля: История образования",
+            "archived": false,
+            "createdTime": "2024-12-19T10:27:22.899Z",
+            "updatedTime": "2024-12-25T20:43:29.084Z",
+            "editedTime": "2024-12-25T20:43:27.722Z",
+            "currentSnapshotId": "4yl8f0wyi8gyb3p",
+            "titleCard": {
+              "id": "ssephvic8zfv47u",
+              "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/rxzlrom8rnnsjj4/ssephvic8zfv47u/slide/1A0dPzCgTvELSv3z-dikKhfTSeM",
+              "createdTime": "2024-12-19T10:27:30.844Z",
+              "updatedTime": "2024-12-19T10:28:23.806Z",
+              "__typename": "Card"
+            },
+            "createdBy": {
+              "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+              "displayName": "Andrew Alexandroff",
+              "id": "rpcrjdervobm6xk",
+              "email": "shurochkin@gmail.com",
+              "__typename": "User"
+            },
+            "collaborators": [
+              {
+                "docId": "rxzlrom8rnnsjj4",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "__typename": "User"
+                },
+                "permission": "manage",
+                "__typename": "DocCollaborator"
+              }
+            ],
+            "docUser": {
+              "id": "s8fsaspsgr4ke9c",
+              "docId": "rxzlrom8rnnsjj4",
+              "lastViewed": "2024-12-25T21:36:50.658Z",
+              "lastEdited": "2024-12-25T20:43:27.722Z",
+              "favorited": null,
+              "__typename": "DocUser"
+            },
+            "channels": [],
+            "organization": {
+              "id": "2uk1afdka0gtb8k",
+              "name": "Andrew Alexandroff's Workspace",
+              "__typename": "Organization"
+            },
+            "orgAccess": null,
+            "editors": [
+              {
+                "docId": "rxzlrom8rnnsjj4",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "displayName": "Andrew Alexandroff",
+                  "email": "shurochkin@gmail.com",
+                  "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+                  "__typename": "User"
+                },
+                "lastEdited": "2024-12-25T20:43:27.722Z",
+                "__typename": "DocEditor"
+              }
+            ],
+            "accessLinks": [
+              {
+                "id": "r05snruz3y5n12n",
+                "docId": "rxzlrom8rnnsjj4",
+                "permission": "view",
+                "token": "",
+                "url": "https://gamma.app/docs/rxzlrom8rnnsjj4",
+                "__typename": "AccessLink"
+              }
+            ],
+            "site": null,
+            "__typename": "Doc"
+          },
+          "__typename": "DocEdge"
+        },
+        {
+          "node": {
+            "id": "4h380ekqi0ti8if",
+            "title": "Техническое устройство атомной станции",
+            "archived": false,
+            "createdTime": "2024-12-17T21:08:39.458Z",
+            "updatedTime": "2024-12-18T18:31:31.901Z",
+            "editedTime": "2024-12-18T18:31:31.543Z",
+            "currentSnapshotId": "xrtr5vyqsdmdfgd",
+            "titleCard": {
+              "id": "6l9ikir4p2mvfsn",
+              "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/4h380ekqi0ti8if/6l9ikir4p2mvfsn/slide/As3edNtwUYhL8DbeeGl78iTbeq0",
+              "createdTime": "2024-12-17T21:08:45.371Z",
+              "updatedTime": "2024-12-18T18:30:58.762Z",
+              "__typename": "Card"
+            },
+            "createdBy": {
+              "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+              "displayName": "Andrew Alexandroff",
+              "id": "rpcrjdervobm6xk",
+              "email": "shurochkin@gmail.com",
+              "__typename": "User"
+            },
+            "collaborators": [
+              {
+                "docId": "4h380ekqi0ti8if",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "__typename": "User"
+                },
+                "permission": "manage",
+                "__typename": "DocCollaborator"
+              }
+            ],
+            "docUser": {
+              "id": "etd9dnxy6iugh19",
+              "docId": "4h380ekqi0ti8if",
+              "lastViewed": "2024-12-18T19:04:04.295Z",
+              "lastEdited": "2024-12-18T18:31:31.543Z",
+              "favorited": null,
+              "__typename": "DocUser"
+            },
+            "channels": [],
+            "organization": {
+              "id": "2uk1afdka0gtb8k",
+              "name": "Andrew Alexandroff's Workspace",
+              "__typename": "Organization"
+            },
+            "orgAccess": null,
+            "editors": [
+              {
+                "docId": "4h380ekqi0ti8if",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "displayName": "Andrew Alexandroff",
+                  "email": "shurochkin@gmail.com",
+                  "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+                  "__typename": "User"
+                },
+                "lastEdited": "2024-12-18T18:31:31.543Z",
+                "__typename": "DocEditor"
+              }
+            ],
+            "accessLinks": [
+              {
+                "id": "ntpcat9927q4ib4",
+                "docId": "4h380ekqi0ti8if",
+                "permission": "view",
+                "token": "",
+                "url": "https://gamma.app/docs/4h380ekqi0ti8if",
+                "__typename": "AccessLink"
+              }
+            ],
+            "site": null,
+            "__typename": "Doc"
+          },
+          "__typename": "DocEdge"
+        },
+        {
+          "node": {
+            "id": "x9wz96yqsladl2a",
+            "title": "Кружевные Зонты и Веера: Элегантность и Стиль",
+            "archived": false,
+            "createdTime": "2024-12-18T17:02:25.932Z",
+            "updatedTime": "2024-12-18T17:03:23.367Z",
+            "editedTime": "2024-12-18T17:03:18.976Z",
+            "currentSnapshotId": "x7c11o8azcceegx",
+            "titleCard": {
+              "id": "zq1uzakgd07ym17",
+              "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/x9wz96yqsladl2a/zq1uzakgd07ym17/slide/kIe6qfDO6n8gh1__K-Md8VRX760",
+              "createdTime": "2024-12-18T17:02:33.971Z",
+              "updatedTime": "2024-12-18T17:03:16.103Z",
+              "__typename": "Card"
+            },
+            "createdBy": {
+              "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+              "displayName": "Andrew Alexandroff",
+              "id": "rpcrjdervobm6xk",
+              "email": "shurochkin@gmail.com",
+              "__typename": "User"
+            },
+            "collaborators": [
+              {
+                "docId": "x9wz96yqsladl2a",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "__typename": "User"
+                },
+                "permission": "manage",
+                "__typename": "DocCollaborator"
+              }
+            ],
+            "docUser": {
+              "id": "h4q4ta4pjjq9xet",
+              "docId": "x9wz96yqsladl2a",
+              "lastViewed": "2024-12-18T18:34:29.332Z",
+              "lastEdited": "2024-12-18T17:03:18.976Z",
+              "favorited": null,
+              "__typename": "DocUser"
+            },
+            "channels": [],
+            "organization": {
+              "id": "2uk1afdka0gtb8k",
+              "name": "Andrew Alexandroff's Workspace",
+              "__typename": "Organization"
+            },
+            "orgAccess": "manage",
+            "editors": [
+              {
+                "docId": "x9wz96yqsladl2a",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "displayName": "Andrew Alexandroff",
+                  "email": "shurochkin@gmail.com",
+                  "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+                  "__typename": "User"
+                },
+                "lastEdited": "2024-12-18T17:03:18.976Z",
+                "__typename": "DocEditor"
+              }
+            ],
+            "accessLinks": [
+              {
+                "id": "6udgbzemnh00v1g",
+                "docId": "x9wz96yqsladl2a",
+                "permission": "view",
+                "token": "",
+                "url": "https://gamma.app/docs/x9wz96yqsladl2a",
+                "__typename": "AccessLink"
+              }
+            ],
+            "site": {
+              "id": "00qo3y558p9bofw",
+              "name": "кружевные зонты и веера",
+              "archived": false,
+              "enabled": true,
+              "faviconUrl": null,
+              "previewUrl": null,
+              "domains": [
+                {
+                  "id": "v92zafy8hbx9n72",
+                  "name": "kruzhevnie-zonti-i-veera-00qo3y5.gamma.site",
+                  "status": "verified",
+                  "builtin": true,
+                  "createdTime": "2024-12-18T17:02:27.644Z",
+                  "siteId": "00qo3y558p9bofw",
+                  "__typename": "Domain"
+                }
+              ],
+              "currentDeployment": {
+                "id": "hivsxguek5z3jr7",
+                "buildHost": "gamma-sites-qxhblid0m-gamma-app.vercel.app",
+                "deploymentTime": "2024-12-18T17:03:24.101Z",
+                "__typename": "Deployment"
+              },
+              "createdTime": "2024-12-18T17:02:27.644Z",
+              "updatedTime": "2024-12-18T17:03:19.529Z",
+              "pageCount": null,
+              "createdBy": null,
+              "__typename": "Site"
+            },
+            "__typename": "Doc"
+          },
+          "__typename": "DocEdge"
+        },
+        {
+          "node": {
+            "id": "8nf0wtj3n63e9dp",
+            "title": "Gamma.app: Использование ИИ для Улучшенного Пользовательского Опыта",
+            "archived": false,
+            "createdTime": "2024-12-18T05:33:52.455Z",
+            "updatedTime": "2024-12-18T05:34:55.921Z",
+            "editedTime": "2024-12-18T05:34:55.701Z",
+            "currentSnapshotId": "2nzaxuc6q5mzdm3",
+            "titleCard": {
+              "id": "xhy5sqmpengjv56",
+              "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/8nf0wtj3n63e9dp/xhy5sqmpengjv56/slide/G3a29dezK1mVxWSxIJk3cpRomVk",
+              "createdTime": "2024-12-18T05:34:00.305Z",
+              "updatedTime": "2024-12-18T05:34:44.690Z",
+              "__typename": "Card"
+            },
+            "createdBy": {
+              "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+              "displayName": "Andrew Alexandroff",
+              "id": "rpcrjdervobm6xk",
+              "email": "shurochkin@gmail.com",
+              "__typename": "User"
+            },
+            "collaborators": [
+              {
+                "docId": "8nf0wtj3n63e9dp",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "__typename": "User"
+                },
+                "permission": "manage",
+                "__typename": "DocCollaborator"
+              }
+            ],
+            "docUser": {
+              "id": "o3vqll8meorg9p7",
+              "docId": "8nf0wtj3n63e9dp",
+              "lastViewed": "2024-12-18T05:33:55.307Z",
+              "lastEdited": "2024-12-18T05:34:55.701Z",
+              "favorited": null,
+              "__typename": "DocUser"
+            },
+            "channels": [],
+            "organization": {
+              "id": "2uk1afdka0gtb8k",
+              "name": "Andrew Alexandroff's Workspace",
+              "__typename": "Organization"
+            },
+            "orgAccess": null,
+            "editors": [
+              {
+                "docId": "8nf0wtj3n63e9dp",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "displayName": "Andrew Alexandroff",
+                  "email": "shurochkin@gmail.com",
+                  "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+                  "__typename": "User"
+                },
+                "lastEdited": "2024-12-18T05:34:55.701Z",
+                "__typename": "DocEditor"
+              }
+            ],
+            "accessLinks": [
+              {
+                "id": "js1fksirm91h2e8",
+                "docId": "8nf0wtj3n63e9dp",
+                "permission": "view",
+                "token": "",
+                "url": "https://gamma.app/docs/8nf0wtj3n63e9dp",
+                "__typename": "AccessLink"
+              }
+            ],
+            "site": null,
+            "__typename": "Doc"
+          },
+          "__typename": "DocEdge"
+        },
+        {
+          "node": {
+            "id": "tlwlztoftxoru3k",
+            "title": "Untitled",
+            "archived": false,
+            "createdTime": "2024-11-20T20:54:54.388Z",
+            "updatedTime": "2024-11-20T20:56:29.325Z",
+            "editedTime": "2024-11-20T20:56:24.251Z",
+            "currentSnapshotId": "vc4d12fk21h7id8",
+            "titleCard": {
+              "id": "rwm7k0wxhwxerde",
+              "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/tlwlztoftxoru3k/rwm7k0wxhwxerde/slide/n4kF3OvhSDJNMHK8Lv5ztPxlVL8",
+              "createdTime": "2024-11-20T20:54:56.376Z",
+              "updatedTime": "2024-11-20T20:57:16.454Z",
+              "__typename": "Card"
+            },
+            "createdBy": {
+              "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+              "displayName": "Andrew Alexandroff",
+              "id": "rpcrjdervobm6xk",
+              "email": "shurochkin@gmail.com",
+              "__typename": "User"
+            },
+            "collaborators": [
+              {
+                "docId": "tlwlztoftxoru3k",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "__typename": "User"
+                },
+                "permission": "manage",
+                "__typename": "DocCollaborator"
+              }
+            ],
+            "docUser": {
+              "id": "wtiscceau5pxnfs",
+              "docId": "tlwlztoftxoru3k",
+              "lastViewed": "2024-11-20T20:54:55.592Z",
+              "lastEdited": "2024-11-20T20:56:24.251Z",
+              "favorited": null,
+              "__typename": "DocUser"
+            },
+            "channels": [],
+            "organization": {
+              "id": "2uk1afdka0gtb8k",
+              "name": "Andrew Alexandroff's Workspace",
+              "__typename": "Organization"
+            },
+            "orgAccess": null,
+            "editors": [
+              {
+                "docId": "tlwlztoftxoru3k",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "displayName": "Andrew Alexandroff",
+                  "email": "shurochkin@gmail.com",
+                  "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+                  "__typename": "User"
+                },
+                "lastEdited": "2024-11-20T20:56:24.251Z",
+                "__typename": "DocEditor"
+              }
+            ],
+            "accessLinks": [
+              {
+                "id": "c7gntbppc6ja91v",
+                "docId": "tlwlztoftxoru3k",
+                "permission": "view",
+                "token": "",
+                "url": "https://gamma.app/docs/tlwlztoftxoru3k",
+                "__typename": "AccessLink"
+              }
+            ],
+            "site": null,
+            "__typename": "Doc"
+          },
+          "__typename": "DocEdge"
+        },
+        {
+          "node": {
+            "id": "nyg149jp2i2db22",
+            "title": "Gamma Tips & Tricks",
+            "archived": false,
+            "createdTime": "2024-11-05T06:37:21.454Z",
+            "updatedTime": "2024-11-05T06:37:21.966Z",
+            "editedTime": "2024-11-05T06:37:21.452Z",
+            "currentSnapshotId": "pz1xoupp5qg64ua",
+            "titleCard": {
+              "id": "fun3aa4gctv5rjt",
+              "previewUrl": "https://assets.api.gamma.app/2uk1afdka0gtb8k/screenshots/nyg149jp2i2db22/fun3aa4gctv5rjt/slide/fOhyKpabJx6qdhEV7EXBICyh-No",
+              "createdTime": "2024-11-05T06:37:21.907Z",
+              "updatedTime": "2024-11-05T06:38:14.409Z",
+              "__typename": "Card"
+            },
+            "createdBy": {
+              "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+              "displayName": "Andrew Alexandroff",
+              "id": "rpcrjdervobm6xk",
+              "email": "shurochkin@gmail.com",
+              "__typename": "User"
+            },
+            "collaborators": [
+              {
+                "docId": "nyg149jp2i2db22",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "__typename": "User"
+                },
+                "permission": "manage",
+                "__typename": "DocCollaborator"
+              }
+            ],
+            "docUser": {
+              "id": "hd522aggg5wr4kf",
+              "docId": "nyg149jp2i2db22",
+              "lastViewed": "2024-11-05T06:37:21.452Z",
+              "lastEdited": "2024-11-05T06:37:21.452Z",
+              "favorited": null,
+              "__typename": "DocUser"
+            },
+            "channels": [],
+            "organization": {
+              "id": "2uk1afdka0gtb8k",
+              "name": "Andrew Alexandroff's Workspace",
+              "__typename": "Organization"
+            },
+            "orgAccess": null,
+            "editors": [
+              {
+                "docId": "nyg149jp2i2db22",
+                "user": {
+                  "id": "rpcrjdervobm6xk",
+                  "displayName": "Andrew Alexandroff",
+                  "email": "shurochkin@gmail.com",
+                  "profileImageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIZs9dV06pArI7bu10cINF--eu6pEYF1BN6o_giAI88szOnMw=s96-c",
+                  "__typename": "User"
+                },
+                "lastEdited": "2024-11-05T06:37:21.452Z",
+                "__typename": "DocEditor"
+              }
+            ],
+            "accessLinks": [
+              {
+                "id": "r9ff0c7cga6zjz0",
+                "docId": "nyg149jp2i2db22",
+                "permission": "view",
+                "token": "",
+                "url": "https://gamma.app/docs/nyg149jp2i2db22",
+                "__typename": "AccessLink"
+              }
+            ],
+            "site": null,
+            "__typename": "Doc"
+          },
+          "__typename": "DocEdge"
+        }
+      ],
+      "pageInfo": {
+        "endCursor": "eyJ1c2VySWRfZG9jSWQiOnsidXNlcklkIjoicnBjcmpkZXJ2b2JtNnhrIiwiZG9jSWQiOiJueWcxNDlqcDJpMmRiMjIifX0=",
+        "hasNextPage": false,
+        "__typename": "PageInfo"
+      },
+      "__typename": "DocConnection"
+    }
+  }
+}
