@@ -9,15 +9,13 @@ defineProps<{
 
 <template>
   <div class="col" v-for="(col, colIdx) in el.content" :key="colIdx">
-    <template v-for="(elem, elemIdx) in col.content" :key="elemIdx">
-      <template v-if="elem.type === 'heading'">
-        <HeadingElement :el="elem"/>
+      <template v-if="col.type === 'heading'">
+        <HeadingElement :el="col"/>
       </template>
 
-      <template v-if="elem.type === 'paragraph'">
-        <ParagraphElement :el="elem"/>
+      <template v-if="col.type === 'paragraph'">
+        <ParagraphElement :el="col"/>
       </template>
-    </template>
   </div>
 </template>
 

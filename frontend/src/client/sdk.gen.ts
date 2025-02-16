@@ -32,6 +32,10 @@ import type {
   DocsControllerFindAllResponse,
   DocsControllerFindOneData,
   DocsControllerFindOneResponse,
+  DocsControllerGenerateDocData,
+  DocsControllerGenerateDocResponse,
+  DocsControllerGenerateSlidesDocData,
+  DocsControllerGenerateSlidesDocResponse,
   DocsControllerRemoveData,
   DocsControllerRemoveSlideData,
   DocsControllerUpdateData,
@@ -635,6 +639,42 @@ export const docsControllerDraft = <ThrowOnError extends boolean = false> (optio
       }
     ],
     url: '/api/docs/draft',
+    ...options,
+    headers: {
+      'Content-Type': 'application/json',
+      ...options?.headers
+    }
+  })
+}
+
+/**
+ * Получить сгенерированный контент слайдов для презентации
+ */
+export const docsControllerGenerateDoc = <ThrowOnError extends boolean = false> (options: Options<DocsControllerGenerateDocData, ThrowOnError>) => {
+  return (options.client ?? _heyApiClient).get<DocsControllerGenerateDocResponse, unknown, ThrowOnError>({
+    security: [
+      {
+        scheme: 'bearer',
+        type: 'http'
+      }
+    ],
+    url: '/api/docs/{draftId}/generate',
+    ...options
+  })
+}
+
+/**
+ * Создать слайды для презентации
+ */
+export const docsControllerGenerateSlidesDoc = <ThrowOnError extends boolean = false> (options: Options<DocsControllerGenerateSlidesDocData, ThrowOnError>) => {
+  return (options.client ?? _heyApiClient).post<DocsControllerGenerateSlidesDocResponse, unknown, ThrowOnError>({
+    security: [
+      {
+        scheme: 'bearer',
+        type: 'http'
+      }
+    ],
+    url: '/api/docs/slides/generate',
     ...options,
     headers: {
       'Content-Type': 'application/json',

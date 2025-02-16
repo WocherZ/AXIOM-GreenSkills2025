@@ -1,29 +1,38 @@
 <template>
-  <CreationToolbar />
-  <FilterToolbar v-model:filter="filter" v-model:sort="sort" v-model:mode="mode" />
+  <CreationToolbar/>
+  <FilterToolbar v-model:filter="filter" v-model:sort="sort" v-model:mode="mode"/>
   <div class="q-pa-md row items-start q-gutter-md">
-    <template v-for="item in items" :key="item.id">
-      <DocCard v-if="item.site === null" :item="item"/>
+    <template v-if="!loading">
+      <template v-for="item in items" :key="item.id">
+        <DocCard :item="item"/>
+      </template>
     </template>
+    <q-inner-loading :showing="loading">
+      <q-spinner-gears size="50px" color="primary"/>
+    </q-inner-loading>
+
   </div>
-<!--    <pre>{{ items }}</pre>-->
+  <!--  <pre>{{ items }}</pre>-->
 </template>
 
 <script lang="ts" setup>
-import { IDoc } from 'src/types/IDocs'
 import { ref, toRefs } from 'vue'
 import DocCard from 'components/list/DocCard.vue'
 import CreationToolbar from 'components/list/CreationToolbar.vue'
 import FilterToolbar from 'components/list/FilterToolbar.vue'
+import { Document } from 'src/client'
 
 interface Props {
-  items: IDoc[]
+  items: Document[];
+  loading: boolean;
 }
+
 const filter = ref('all')
 const sort = ref('editedTime')
 const mode = ref('grid')
 const props = withDefaults(defineProps<Props>(), {
-  items: () => ([])
+  items: () => ([]),
+  loading: true
 })
 const { items } = toRefs(props)
 </script>

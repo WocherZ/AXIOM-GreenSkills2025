@@ -1,30 +1,39 @@
 <script setup lang="ts">
-import { IDoc } from 'src/types/IDocs'
-import { toRefs } from 'vue'
+import { Document } from 'src/client'
+import { computed, toRefs } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 interface Props {
-  item: IDoc
+  item: Document
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  item: () => ({} as IDoc)
+  item: () => ({} as Document)
 })
+
 const { item } = toRefs(props)
+
+const userName = computed(() => `${item.value?.createdBy?.firstName} ${item.value?.createdBy?.lastName}`)
+const created = computed(() => new Date(item.value.createdAt).toLocaleString())
+
+const toDoc = async (id: string) => {
+  console.log(123123, id)
+  await router.push(`/docs/${id}`)
+}
 </script>
 
 <template>
-  <q-card class="my-card cursor-pointer">
-    <img :src="item.titleCard?.previewUrl" :alt="item.title">
+  <q-card class="my-card cursor-pointer" @click="toDoc(item.id) ">
+    <q-img :ratio="16/9" :src="item.content?.images[0]" :alt="item.title" />
 
     <q-card-section class="q-pb-none">
-      <router-link class="title" :to="`/docs/${item.id}`">{{ item.title }}</router-link>
+      <router-link class="title" :to="`/docs/${item.id}`">{{ item.title || item.docGenerateInput.prompt }}</router-link>
     </q-card-section>
 
     <q-card-section class="q-pt-none">
-      <div v-if="item.site !== null" class="link text-subtitle">
-        {{ item.site?.domains[0].name }}
-      </div>
-      <q-chip v-else size="sm" bg-color="grey-6" label="Частный" text-color="grey" icon="lock"/>
+      <q-chip size="sm" bg-color="grey-6" label="Частный" text-color="grey" icon="lock"/>
 
     </q-card-section>
     <q-card-section class="q-pa-none q-pb-sm">
@@ -37,8 +46,8 @@ const { item } = toRefs(props)
           </q-item-section>
 
           <q-item-section>
-            <q-item-label>{{ item.createdBy.displayName }}</q-item-label>
-            <q-item-label caption lines="1">{{ item.createdTime }}</q-item-label>
+            <q-item-label>{{ userName }}</q-item-label>
+            <q-item-label caption lines="1">{{ created }}</q-item-label>
           </q-item-section>
 
           <q-item-section side>
@@ -46,9 +55,9 @@ const { item } = toRefs(props)
               <q-menu content-class="bg-grey" style="max-width: 400px">
                 <q-item>
                   <q-item-section>
-                    <q-item-label class="text-h6">{{ item.title }}</q-item-label>
-                    <q-item-label caption lines="1">{{ item.createdBy.displayName }}</q-item-label>
-                    <q-item-label caption lines="1">Создано {{ item.createdTime }}</q-item-label>
+                    <q-item-label class="text-h6">{{ item.title || item.docGenerateInput.prompt }}</q-item-label>
+                    <q-item-label caption lines="1">{{ userName }}</q-item-label>
+                    <q-item-label caption lines="1">Создано {{ item.createdAt }}</q-item-label>
                   </q-item-section>
                 </q-item>
                 <q-item clickable v-close-popup>

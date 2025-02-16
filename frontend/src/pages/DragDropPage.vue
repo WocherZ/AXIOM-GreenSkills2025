@@ -36,6 +36,7 @@
           </q-card-section>
         </q-card>
       </div>
+      <pre>{{ simpleList }}</pre>
       <!-- Сетка с перетаскиванием -->
       <div class="col-12">
         <q-card>
