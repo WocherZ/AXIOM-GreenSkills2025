@@ -56,15 +56,17 @@ export class DocsController {
     return this.docsService.generateDraftDocument(data, user);
   }
 
-  @Post(':draftId/generate')
-  @ApiOperation({ summary: 'Сгенерировать контент слайдов для презентации' })
+  @Get(':draftId/generate')
+  @ApiOperation({
+    summary: 'Получить сгенерированный контент слайдов для презентации',
+  })
   @ApiResponse({ status: 200, type: Document })
   generateDoc(@Param('draftId') draftId: string, @ReqUser() user: User) {
     return this.docsService.generateContentDoc(draftId, user);
   }
 
   @Post('slides/generate')
-  @ApiOperation({ summary: 'Сгенерировать контент слайдов для презентации' })
+  @ApiOperation({ summary: 'Создать слайды для презентации' })
   @ApiResponse({ status: 200, type: [Slide] })
   generateSlidesDoc(
     @Body() data: CreateContentSlideDto,
@@ -115,7 +117,7 @@ export class DocsController {
     @ReqUser() user: User,
   ) {
     console.log(data);
-    await this.docsService.uploadFileAsPrompt(file, data, user);
+    return this.docsService.uploadFileAsPrompt(file, data, user);
   }
 
   @Get()

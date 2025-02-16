@@ -53,6 +53,7 @@
     "@nestjs/typeorm": "^10.0.2",
     "@nestjs/websockets": "^10.4.12",
     "@socket.io/redis-adapter": "^8.3.0",
+    "@vitalets/google-translate-api": "^9.2.1",
     "amqp-connection-manager": "^4.1.14",
     "amqplib": "^0.10.4",
     "argon2": "^0.41.1",

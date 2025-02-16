@@ -5746,6 +5746,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/http-errors@npm:^1.8.2":
+  version: 1.8.2
+  resolution: "@types/http-errors@npm:1.8.2"
+  checksum: 10c0/7257ecf87729898ee2c0bfcaab86ed9733d52c8a8d0719343be8b116009c6a15bc575ccdf02a8eb5972f19df3d0b9fc7fefae69625a0b5aa9f149aea580609fc
+  languageName: node
+  linkType: hard
+
 "@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0, @types/istanbul-lib-coverage@npm:^2.0.1":
   version: 2.0.6
   resolution: "@types/istanbul-lib-coverage@npm:2.0.6"
@@ -6189,6 +6196,17 @@ __metadata:
   version: 1.2.0
   resolution: "@ungap/structured-clone@npm:1.2.0"
   checksum: 10c0/8209c937cb39119f44eb63cf90c0b73e7c754209a6411c707be08e50e29ee81356dca1a848a405c8bdeebfe2f5e4f831ad310ae1689eeef65e7445c090c6657d
+  languageName: node
+  linkType: hard
+
+"@vitalets/google-translate-api@npm:^9.2.1":
+  version: 9.2.1
+  resolution: "@vitalets/google-translate-api@npm:9.2.1"
+  dependencies:
+    "@types/http-errors": "npm:^1.8.2"
+    http-errors: "npm:^2.0.0"
+    node-fetch: "npm:^2.6.7"
+  checksum: 10c0/3790c42a7684f2fe3ce247e83bf6551134dcb05b32c1e66c3c411fb784333e9d046d4bb4c351cc7ee89f2fb366f48e3ee9bcfc8f47e12246c0e85dd2e3885a71
   languageName: node
   linkType: hard
 
@@ -10691,7 +10709,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-errors@npm:2.0.0":
+"http-errors@npm:2.0.0, http-errors@npm:^2.0.0":
   version: 2.0.0
   resolution: "http-errors@npm:2.0.0"
   dependencies:
@@ -13834,6 +13852,7 @@ __metadata:
     "@types/supertest": "npm:^6.0.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.0.0"
     "@typescript-eslint/parser": "npm:^8.0.0"
+    "@vitalets/google-translate-api": "npm:^9.2.1"
     amqp-connection-manager: "npm:^4.1.14"
     amqplib: "npm:^0.10.4"
     argon2: "npm:^0.41.1"
