@@ -42,14 +42,18 @@ export class DocsService {
   ) {}
 
   async generateDraftDocument(data: DocGenerateDto, user: User) {
-    const res = await this.llmService.generateSlides(data.prompt);
+    const res = await this.llmService.generateSlides(
+      data.prompt,
+      1,
+      data?.settings?.numCards,
+    );
 
     const draft = this.documentDraftRepository.create({
       id: randomUUID(),
       prompt: data.prompt,
       content: res,
       status: DocGenerateStatus.DRAFT,
-      settings: new SettingsProps(),
+      settings: data.settings,
       createdBy: user,
     });
     await this.documentDraftRepository.insert(draft);
@@ -73,16 +77,25 @@ export class DocsService {
         id: randomUUID(),
         prompt: query.prompt,
         content: res,
-        status: DocGenerateStatus.DRAFT,
+        status: DocGenerateStatus.GENERATE,
         settings: new SettingsProps(),
         createdBy: user,
       });
 
       await tr.insert(DocGenerateInput, draft);
 
+      const { preview, images } = await this.llmService.getSlidesSummary(res);
+
+      const contentWithImages = {
+        data: res,
+        images,
+      };
+
       const doc = this.documentRepository.create({
         id: randomUUID(),
-        content: res,
+        title: query.prompt,
+        previewUrl: preview,
+        content: contentWithImages,
         docGenerateId: draft.id,
         workspaceId: user.workspace.id,
         createdBy: user,
@@ -102,15 +115,27 @@ export class DocsService {
       JSON.stringify(draft.content),
     );
 
+    const { preview, images } = await this.llmService.getSlidesSummary(res);
+
+    const contentWithImages = {
+      data: res,
+      images,
+    };
     const doc = this.documentRepository.create({
       id: randomUUID(),
-      content: res,
+      title: draft.prompt,
+      previewUrl: preview,
+      content: contentWithImages,
       docGenerateId: draft.id,
       workspaceId: user.workspace.id,
       createdBy: user,
     });
 
     await this.documentRepository.insert(doc);
+    await this.documentDraftRepository.update(
+      { id: draftId },
+      { status: DocGenerateStatus.GENERATE },
+    );
 
     return doc;
   }
@@ -140,9 +165,7 @@ export class DocsService {
       await this.themeRepository.findOneByOrFail({ id: data.settings.themeId });
     }
 
-    await this.documentDraftRepository.update(id, data);
-
-    return draft;
+    return this.documentDraftRepository.save({ ...draft, ...data });
   }
 
   async draftsFindAll(
@@ -170,6 +193,7 @@ export class DocsService {
         docGenerateInput: true,
         preview: true,
         folder: true,
+        createdBy: true,
       },
       take: page.limit,
       skip: page.skip,

@@ -23,3 +23,6 @@ export const CREATE_SLIDES_CONTENT_USER_PROMPT_TEMPLATE =
 export const EDIT_SLIDES_CONTENT_SYSTEM_PROMPT = `Ты креативный создатель презентаций. Твоя задача - изменять содержимое для слайдов презентации под требования пользователя. Ответ должен быть в формате JSON. \n${CREATE_SLIDES_CONTENT_INSTRUCTIONS}`;
 export const EDIT_SLIDES_CONTENT_USER_PROMPT_TEMPLATE =
   'Текущее описание слайда в JSON формате: {slide_content_json}. Тебе необходимо переделать описание слайда: {edit_task}';
+export const SUMMARY_PRESENTATION_SYSTEM_PROMPT = `You are a summarizer of presentations. Write any summary only in English.`;
+export const SUMMARY_PRESENTATION_USER_PROMPT_TEMPLATE =
+  'You need to describe the entire presentation in 5 english words, using only nouns. Given the presentation description on english in JSON format: {slides}';

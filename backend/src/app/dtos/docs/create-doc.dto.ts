@@ -36,13 +36,6 @@ export class CreateDocDto {
   @Type(() => DocSlidePropsDto)
   public slides: string;
 }
-
-export class DocGenerateDto {
-  @ApiProperty()
-  @IsString()
-  public prompt: string;
-}
-
 export class SettingsProps {
   @ApiPropertyOptional()
   @IsOptional()
@@ -116,7 +109,7 @@ export class SettingsProps {
 
   @ApiPropertyOptional()
   @IsInt()
-  @Min(8)
+  @Min(1)
   @Max(16)
   @IsOptional()
   public numCards: number;
@@ -135,4 +128,16 @@ export class SettingsProps {
   @IsString()
   @IsOptional()
   public imageLicense: string;
+}
+
+export class DocGenerateDto {
+  @ApiProperty()
+  @IsString()
+  public prompt: string;
+
+  @ApiPropertyOptional({ type: SettingsProps, required: false })
+  @ValidateNested()
+  @Type(() => SettingsProps)
+  @IsOptional()
+  settings?: SettingsProps;
 }

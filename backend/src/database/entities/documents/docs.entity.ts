@@ -7,7 +7,6 @@ import {
   JoinColumn,
   ManyToOne,
   OneToMany,
-  OneToOne,
   PrimaryColumn,
   UpdateDateColumn,
 } from 'typeorm';
@@ -19,7 +18,7 @@ import DocGenerateInput from './draft-document.entity';
 import Slide from './slide.entity';
 import { Theme } from './theme.entity';
 import { DocSlidePropsDto } from '@dto/docs/update-slide.dto';
-import { DraftDocContentProps } from '@dto/docs/res-draft.dto';
+import { SlideContentWithImagesDto } from '@dto/docs/res-draft.dto';
 
 @Entity('documents')
 export default class Document {
@@ -42,9 +41,13 @@ export default class Document {
   @Column({ nullable: true })
   public title: string;
 
-  @ApiProperty({ type: [DraftDocContentProps] })
+  @ApiProperty()
+  @Column({ nullable: true, name: 'preview_url' })
+  public previewUrl: string;
+
+  @ApiProperty({ type: SlideContentWithImagesDto })
   @Column('jsonb', { nullable: true })
-  public content: DraftDocContentProps[];
+  public content: SlideContentWithImagesDto;
 
   @ApiProperty({ type: () => File })
   @ManyToOne(() => File, (org) => org, {
@@ -77,7 +80,7 @@ export default class Document {
   public workspaceId: string;
 
   @ApiProperty({ type: () => DocGenerateInput })
-  @OneToOne(() => DocGenerateInput, (doc) => doc, {
+  @ManyToOne(() => DocGenerateInput, (doc) => doc, {
     nullable: false,
   })
   @JoinColumn({ name: 'doc_generate_id' })
@@ -95,7 +98,7 @@ export default class Document {
   public folder: Folder;
 
   @ApiProperty()
-  @Column({ name: 'folder_id' })
+  @Column({ name: 'folder_id', nullable: true })
   public folderId: string;
 
   @ApiProperty()

@@ -1,4 +1,3 @@
-import DocGenerateInput from '@entities/documents/draft-document.entity';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsString } from 'class-validator';
 
@@ -21,10 +20,10 @@ export class DraftDocContentProps {
   list: string[];
 }
 
-export class DraftSlideContentDto {
-  @ApiProperty({ type: DocGenerateInput })
-  draft: DocGenerateInput;
+export class SlideContentWithImagesDto {
+  @ApiProperty()
+  images: string[];
 
-  @ApiProperty({ type: [DraftSlideContentProps] })
-  data: DraftSlideContentProps[];
+  @ApiProperty({ type: [DraftDocContentProps] })
+  data: DraftDocContentProps[];
 }
